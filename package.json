@@ -1,0 +1,23 @@
+{
+  "name": "roguelites",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "ember-swarm",
+    "deckbound-spire",
+    "neon-depths",
+    "dice-and-dungeons",
+    "hexfall-tactics"
+  ],
+  "scripts": {
+    "dev:ember": "npm run dev -w ember-swarm",
+    "dev:deck": "npm run dev -w deckbound-spire",
+    "dev:neon": "npm run dev -w neon-depths",
+    "dev:dice": "npm run dev -w dice-and-dungeons",
+    "dev:hex": "npm run dev -w hexfall-tactics",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces",
+    "start": "node server.mjs",
+    "serve": "npm run build && node server.mjs"
+  }
+}
