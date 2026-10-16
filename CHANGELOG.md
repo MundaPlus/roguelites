@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Dust Trail as playable game number 24 and marked it ready in the launcher (`dust-trail/`, `server.mjs`, `README.md`) — see `dust-trail/CHANGELOG.md`.
 - Built Rogue Rally as playable game number 23 and marked it ready in the launcher (`rogue-rally/`, `server.mjs`, `README.md`) — see `rogue-rally/CHANGELOG.md`.
 - Built Deep Lure as playable game number 22 and marked it ready in the launcher (`deep-lure/`, `server.mjs`, `README.md`) — see `deep-lure/CHANGELOG.md`.
 - Built Silent Contract as playable game number 21 and marked it ready in the launcher (`silent-contract/`, `server.mjs`, `README.md`) — see `silent-contract/CHANGELOG.md`.

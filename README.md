@@ -27,7 +27,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `block-siege/` | Block Siege | Falling-block combat (like Tetris with enemies) | Playable |
 | `deep-lure/` | Deep Lure | Fishing roguelite (like Dredge) | Playable |
 | `rogue-rally/` | Rogue Rally | Top-down racing roguelite (like Micro Machines with upgrades) | Playable |
-| `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Design only |
+| `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Playable |
 | `brew-rogue/` | Brew Rogue | Potion-brewing roguelite (like Potion Craft) | Design only |
 | `sweep-saga/` | Sweep Saga | Minesweeper roguelite (like Dragonsweeper / DemonCrawl) | Design only |
 | `pocket-wilds/` | Pocket Wilds | Monster-taming roguelite (like Pokémon roguelites / Cassette Beasts) | Design only |
