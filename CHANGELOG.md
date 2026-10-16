@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Grid Crawler as playable game number 37 and marked it ready in the launcher (`grid-crawler/`, `server.mjs`, `README.md`) — see `grid-crawler/CHANGELOG.md`.
 - Built Solitaire Siege as playable game number 36 and marked it ready in the launcher (`solitaire-siege/`, `server.mjs`, `README.md`) — see `solitaire-siege/CHANGELOG.md`.
 - Built Brick Rogue as playable game number 35 and marked it ready in the launcher (`brick-rogue/`, `server.mjs`, `README.md`) — see `brick-rogue/CHANGELOG.md`.
 - Built Tower Topple as playable game number 34 and marked it ready in the launcher (`tower-topple/`, `server.mjs`, `README.md`) — see `tower-topple/CHANGELOG.md`.

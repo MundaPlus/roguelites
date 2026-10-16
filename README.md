@@ -34,7 +34,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `critter-clash/` | Critter Clash | Team auto-battler (like Super Auto Pets) | Playable |
 | `storm-haven/` | Storm Haven | Settlement builder roguelite (like Against the Storm) | Playable |
 | `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Playable |
-| `grid-crawler/` | Grid Crawler | Classic turn-based roguelike (like Brogue / Dungeon Crawl Stone Soup) | Design only |
+| `grid-crawler/` | Grid Crawler | Classic turn-based roguelike (like Brogue / Dungeon Crawl Stone Soup) | Playable |
 | `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Playable |
 | `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Playable |
 | `lane-push/` | Lane Push | Real-time lane attack (like Clash Royale / reverse Plants vs. Zombies) | Playable |
