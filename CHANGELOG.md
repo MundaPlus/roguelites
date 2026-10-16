@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Cursed Fairway as playable game number 17 and marked it ready in the launcher (`cursed-fairway/`, `server.mjs`, `README.md`) — see `cursed-fairway/CHANGELOG.md`.
 - Built Conga Quest as playable game number 16 and marked it ready in the launcher (`conga-quest/`, `server.mjs`, `README.md`) — see `conga-quest/CHANGELOG.md`.
 - Built Starward Drift as playable game number 15 and marked it ready in the launcher (`starward-drift/`, `server.mjs`, `README.md`) — see `starward-drift/CHANGELOG.md`.
 - Built Spin Lord as playable game number 14 and marked it ready in the launcher (`spin-lord/`, `server.mjs`, `README.md`) — see `spin-lord/CHANGELOG.md`.
