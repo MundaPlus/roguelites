@@ -15,7 +15,7 @@ const GAMES = [
   { dir: 'deckbound-spire', title: 'Deckbound Spire', icon: '🃏', style: 'Turn-based deckbuilder', color: '#9d4edd', ready: true },
   { dir: 'neon-depths', title: 'Neon Depths', icon: '🔫', style: 'Twin-stick room clearing', color: '#00f5d4', ready: true },
   { dir: 'dice-and-dungeons', title: 'Dice & Dungeons', icon: '🎲', style: 'Dice-placement puzzle combat', color: '#f4a261', ready: true },
-  { dir: 'hexfall-tactics', title: 'Hexfall Tactics', icon: '⬢', style: 'Grid-tactics squad', color: '#4895ef', ready: false },
+  { dir: 'hexfall-tactics', title: 'Hexfall Tactics', icon: '⬢', style: 'Grid-tactics squad', color: '#4895ef', ready: true },
   { dir: 'peg-bounce', title: 'Peg Bounce', icon: '🔮', style: 'Physics pachinko combat', color: '#c77dff', ready: false },
   { dir: 'high-card', title: 'High Card', icon: '🂡', style: 'Poker-hand scoring', color: '#e63946', ready: false },
   { dir: 'last-bastion', title: 'Last Bastion', icon: '🏰', style: 'Run-based tower defense', color: '#2a9d8f', ready: false },

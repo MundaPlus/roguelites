@@ -8,7 +8,7 @@ Ten small web roguelite games. Each game has a different play style. All games u
 | `deckbound-spire/` | Deckbound Spire | Turn-based deckbuilder (like Slay the Spire) | Playable |
 | `neon-depths/` | Neon Depths | Twin-stick room clearing (like Isaac / Hades) | Playable |
 | `dice-and-dungeons/` | Dice & Dungeons | Dice-placement puzzle combat (like Dicey Dungeons) | Playable |
-| `hexfall-tactics/` | Hexfall Tactics | Grid-tactics squad game (like Into the Breach) | Design only |
+| `hexfall-tactics/` | Hexfall Tactics | Grid-tactics squad game (like Into the Breach) | Playable |
 | `peg-bounce/` | Peg Bounce | Physics pachinko combat (like Peglin) | Design only |
 | `high-card/` | High Card | Poker-hand scoring (like Balatro) | Design only |
 | `last-bastion/` | Last Bastion | Run-based tower defense (like Rogue Tower) | Design only |
