@@ -1,6 +1,6 @@
 # Roguelites
 
-Twenty small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
+Twenty-five small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
 
 | Folder | Game | Play style | Status |
 |---|---|---|---|
@@ -24,6 +24,11 @@ Twenty small web roguelite games. Each game has a different play style. All game
 | `cursed-fairway/` | Cursed Fairway | Golf roguelite (like Cursed to Golf) | Design only |
 | `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Design only |
 | `silent-contract/` | Silent Contract | Turn-based stealth heist (like Invisible Inc.) | Design only |
+| `block-siege/` | Block Siege | Falling-block combat (like Tetris with enemies) | Design only |
+| `deep-lure/` | Deep Lure | Fishing roguelite (like Dredge) | Design only |
+| `rogue-rally/` | Rogue Rally | Top-down racing roguelite (like Micro Machines with upgrades) | Design only |
+| `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Design only |
+| `brew-rogue/` | Brew Rogue | Potion-brewing roguelite (like Potion Craft) | Design only |
 
 ## Run
 
@@ -49,6 +54,11 @@ npm run dev:conga    # Conga Quest
 npm run dev:golf     # Cursed Fairway
 npm run dev:dome     # Dome Digger
 npm run dev:heist    # Silent Contract
+npm run dev:block    # Block Siege
+npm run dev:fish     # Deep Lure
+npm run dev:rally    # Rogue Rally
+npm run dev:trail    # Dust Trail
+npm run dev:brew     # Brew Rogue
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```
