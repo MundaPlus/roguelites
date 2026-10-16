@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-15
+- Built Neon Depths as the third playable game and marked it ready in the launcher (`neon-depths/`, `server.mjs`, `README.md`) — see `neon-depths/CHANGELOG.md`.
 - Built Deckbound Spire as the second playable game and marked it ready in the launcher (`deckbound-spire/`, `server.mjs`, `README.md`) — see `deckbound-spire/CHANGELOG.md`.
 - Initialized git with `master` and `develop` branches and the origin `http://192.168.31.225:3333/admin/roguelites.git` (`README.md` branch notes) — version control for the games.
 - Added a LAN game server with a launcher page (`server.mjs`) and `npm run serve` / `npm start` (`package.json`) — to play all games from other devices on the LAN.

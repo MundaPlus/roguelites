@@ -13,7 +13,7 @@ const HOST = process.env.HOST ?? '0.0.0.0';
 const GAMES = [
   { dir: 'ember-swarm', title: 'Ember Swarm', icon: '🔥', style: 'Auto-shooter survival', color: '#ff9f1c', ready: true },
   { dir: 'deckbound-spire', title: 'Deckbound Spire', icon: '🃏', style: 'Turn-based deckbuilder', color: '#9d4edd', ready: true },
-  { dir: 'neon-depths', title: 'Neon Depths', icon: '🔫', style: 'Twin-stick room clearing', color: '#00f5d4', ready: false },
+  { dir: 'neon-depths', title: 'Neon Depths', icon: '🔫', style: 'Twin-stick room clearing', color: '#00f5d4', ready: true },
   { dir: 'dice-and-dungeons', title: 'Dice & Dungeons', icon: '🎲', style: 'Dice-placement puzzle combat', color: '#f4a261', ready: false },
   { dir: 'hexfall-tactics', title: 'Hexfall Tactics', icon: '⬢', style: 'Grid-tactics squad', color: '#4895ef', ready: false },
 ];

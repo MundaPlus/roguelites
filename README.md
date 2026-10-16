@@ -6,7 +6,7 @@ Five small web roguelite games. Each game has a different play style. All games 
 |---|---|---|---|
 | `ember-swarm/` | Ember Swarm | Auto-shooter survival (like Vampire Survivors) | Playable |
 | `deckbound-spire/` | Deckbound Spire | Turn-based deckbuilder (like Slay the Spire) | Playable |
-| `neon-depths/` | Neon Depths | Twin-stick room clearing (like Isaac / Hades) | Design only |
+| `neon-depths/` | Neon Depths | Twin-stick room clearing (like Isaac / Hades) | Playable |
 | `dice-and-dungeons/` | Dice & Dungeons | Dice-placement puzzle combat (like Dicey Dungeons) | Design only |
 | `hexfall-tactics/` | Hexfall Tactics | Grid-tactics squad game (like Into the Breach) | Design only |
 

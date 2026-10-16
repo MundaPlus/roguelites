@@ -2,11 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#03030a" />
     <title>Neon Depths</title>
   </head>
   <body>
-    <div id="app"></div>
+    <canvas id="game"></canvas>
+    <div id="touch" hidden>
+      <button data-key="TouchDodge">DODGE</button>
+      <button data-key="TouchBomb">💣</button>
+      <button data-key="Escape" class="small">II</button>
+    </div>
+    <div id="ui"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
