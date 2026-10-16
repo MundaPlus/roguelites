@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Storm Haven as playable game number 29 and marked it ready in the launcher (`storm-haven/`, `server.mjs`, `README.md`) — see `storm-haven/CHANGELOG.md`.
 - Built Pocket Wilds as playable game number 28 and marked it ready in the launcher (`pocket-wilds/`, `server.mjs`, `README.md`) — see `pocket-wilds/CHANGELOG.md`.
 - Built Critter Clash as playable game number 27 and marked it ready in the launcher (`critter-clash/`, `server.mjs`, `README.md`) — see `critter-clash/CHANGELOG.md`.
 - Built Sweep Saga as playable game number 26 and marked it ready in the launcher (`sweep-saga/`, `server.mjs`, `README.md`) — see `sweep-saga/CHANGELOG.md`.
