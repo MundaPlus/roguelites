@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Street Brawl as playable game number 40 and marked it ready in the launcher (`street-brawl/`, `server.mjs`, `README.md`) — see `street-brawl/CHANGELOG.md`.
 - Built Duel Dojo as playable game number 39 and marked it ready in the launcher (`duel-dojo/`, `server.mjs`, `README.md`) — see `duel-dojo/CHANGELOG.md`.
 - Built Drift Rocks as playable game number 38 and marked it ready in the launcher (`drift-rocks/`, `server.mjs`, `README.md`) — see `drift-rocks/CHANGELOG.md`.
 - Built Grid Crawler as playable game number 37 and marked it ready in the launcher (`grid-crawler/`, `server.mjs`, `README.md`) — see `grid-crawler/CHANGELOG.md`.
