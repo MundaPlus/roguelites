@@ -11,7 +11,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `hexfall-tactics/` | Hexfall Tactics | Grid-tactics squad game (like Into the Breach) | Playable |
 | `peg-bounce/` | Peg Bounce | Physics pachinko combat (like Peglin) | Playable |
 | `high-card/` | High Card | Poker-hand scoring (like Balatro) | Playable |
-| `last-bastion/` | Last Bastion | Run-based tower defense (like Rogue Tower) | Design only |
+| `last-bastion/` | Last Bastion | Run-based tower defense (like Rogue Tower) | Playable |
 | `cave-diver/` | Cave Diver | Side-view platformer (like Spelunky) | Design only |
 | `loop-warden/` | Loop Warden | Loop auto-battler (like Loop Hero) | Playable |
 | `word-smith/` | Word Smith | Word-spelling combat (like Bookworm Adventures / Letter Quest) | Design only |

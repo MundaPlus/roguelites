@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Last Bastion as playable game number 9 and marked it ready in the launcher (`last-bastion/`, `server.mjs`, `README.md`) — see `last-bastion/CHANGELOG.md`.
 - Built High Card as playable game number 8 and marked it ready in the launcher (`high-card/`, `server.mjs`, `README.md`) — see `high-card/CHANGELOG.md`.
 - Built Loop Warden as playable game number 7 and marked it ready in the launcher (`loop-warden/`, `server.mjs`, `README.md`) — see `loop-warden/CHANGELOG.md`.
 - Added twenty new games as placeholders with design READMEs: Grid Crawler, Bullet Bloom, Tower Topple, Lane Push, Trade Winds, Brick Rogue, Solitaire Siege, Wild Camp, Street Brawl, Duel Dojo, Drift Rocks, Herd Path, Idle Empire, Crate Crypt, Pixel Oracle, Dash Lanes, Ink Bridge, Orbit Sling, Time Bar Tales, Code Breaker (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.
