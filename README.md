@@ -14,7 +14,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `last-bastion/` | Last Bastion | Run-based tower defense (like Rogue Tower) | Playable |
 | `cave-diver/` | Cave Diver | Side-view platformer (like Spelunky) | Design only |
 | `loop-warden/` | Loop Warden | Loop auto-battler (like Loop Hero) | Playable |
-| `word-smith/` | Word Smith | Word-spelling combat (like Bookworm Adventures / Letter Quest) | Design only |
+| `word-smith/` | Word Smith | Word-spelling combat (like Bookworm Adventures / Letter Quest) | Playable |
 | `chain-crawl/` | Chain Crawl | Swipe-chain puzzle combat (like Dungeon Raid) | Playable |
 | `beat-delver/` | Beat Delver | Rhythm dungeon crawler (like Crypt of the NecroDancer) | Design only |
 | `pack-rat/` | Pack Rat | Backpack-builder auto-battler (like Backpack Hero / Backpack Battles) | Design only |
