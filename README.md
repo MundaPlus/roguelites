@@ -35,7 +35,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `storm-haven/` | Storm Haven | Settlement builder roguelite (like Against the Storm) | Playable |
 | `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Design only |
 | `grid-crawler/` | Grid Crawler | Classic turn-based roguelike (like Brogue / Dungeon Crawl Stone Soup) | Design only |
-| `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Design only |
+| `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Playable |
 | `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Design only |
 | `lane-push/` | Lane Push | Real-time lane attack (like Clash Royale / reverse Plants vs. Zombies) | Design only |
 | `trade-winds/` | Trade Winds | Merchant trading (like Taipan / Merchant of the Seas) | Design only |
