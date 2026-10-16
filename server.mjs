@@ -32,7 +32,7 @@ const GAMES = [
   { dir: 'dome-digger', title: 'Dome Digger', icon: '⛏️', style: 'Mining plus wave defense', color: '#9c6644', ready: true, added: '2026-10-16T16:21' },
   { dir: 'silent-contract', title: 'Silent Contract', icon: '🕵️', style: 'Turn-based stealth heist', color: '#4361ee', ready: true, added: '2026-10-16T16:21' },
   { dir: 'block-siege', title: 'Block Siege', icon: '🧱', style: 'Falling-block combat', color: '#f72585', ready: true, added: '2026-10-16T16:27' },
-  { dir: 'deep-lure', title: 'Deep Lure', icon: '🎣', style: 'Fishing roguelite', color: '#0096c7', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'deep-lure', title: 'Deep Lure', icon: '🎣', style: 'Fishing roguelite', color: '#0096c7', ready: true, added: '2026-10-16T16:27' },
   { dir: 'rogue-rally', title: 'Rogue Rally', icon: '🏎️', style: 'Top-down racing roguelite', color: '#e85d04', ready: false, added: '2026-10-16T16:27' },
   { dir: 'dust-trail', title: 'Dust Trail', icon: '🐎', style: 'Caravan journey survival', color: '#d4a373', ready: false, added: '2026-10-16T16:27' },
   { dir: 'brew-rogue', title: 'Brew Rogue', icon: '⚗️', style: 'Potion-brewing roguelite', color: '#7209b7', ready: false, added: '2026-10-16T16:27' },

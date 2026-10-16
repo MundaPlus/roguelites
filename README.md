@@ -25,7 +25,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Playable |
 | `silent-contract/` | Silent Contract | Turn-based stealth heist (like Invisible Inc.) | Playable |
 | `block-siege/` | Block Siege | Falling-block combat (like Tetris with enemies) | Playable |
-| `deep-lure/` | Deep Lure | Fishing roguelite (like Dredge) | Design only |
+| `deep-lure/` | Deep Lure | Fishing roguelite (like Dredge) | Playable |
 | `rogue-rally/` | Rogue Rally | Top-down racing roguelite (like Micro Machines with upgrades) | Design only |
 | `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Design only |
 | `brew-rogue/` | Brew Rogue | Potion-brewing roguelite (like Potion Craft) | Design only |
