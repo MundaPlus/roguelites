@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Spin Lord as playable game number 14 and marked it ready in the launcher (`spin-lord/`, `server.mjs`, `README.md`) — see `spin-lord/CHANGELOG.md`.
 - Built Beat Delver as playable game number 13 and marked it ready in the launcher (`beat-delver/`, `server.mjs`, `README.md`) — see `beat-delver/CHANGELOG.md`.
 - Built Cave Diver as playable game number 12 and marked it ready in the launcher (`cave-diver/`, `server.mjs`, `README.md`) — see `cave-diver/CHANGELOG.md`.
 - Built Word Smith as playable game number 11 and marked it ready in the launcher (`word-smith/`, `server.mjs`, `README.md`) — see `word-smith/CHANGELOG.md`.

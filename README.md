@@ -19,7 +19,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `beat-delver/` | Beat Delver | Rhythm dungeon crawler (like Crypt of the NecroDancer) | Playable |
 | `pack-rat/` | Pack Rat | Backpack-builder auto-battler (like Backpack Hero / Backpack Battles) | Design only |
 | `starward-drift/` | Starward Drift | Ship crew management with pause (like FTL) | Design only |
-| `spin-lord/` | Spin Lord | Slot-machine deck builder (like Luck be a Landlord) | Design only |
+| `spin-lord/` | Spin Lord | Slot-machine deck builder (like Luck be a Landlord) | Playable |
 | `conga-quest/` | Conga Quest | Snake-style party crawler (like Nimble Quest) | Design only |
 | `cursed-fairway/` | Cursed Fairway | Golf roguelite (like Cursed to Golf) | Design only |
 | `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Design only |
