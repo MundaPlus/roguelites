@@ -33,7 +33,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `pocket-wilds/` | Pocket Wilds | Monster-taming roguelite (like Pokémon roguelites / Cassette Beasts) | Playable |
 | `critter-clash/` | Critter Clash | Team auto-battler (like Super Auto Pets) | Playable |
 | `storm-haven/` | Storm Haven | Settlement builder roguelite (like Against the Storm) | Playable |
-| `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Design only |
+| `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Playable |
 | `grid-crawler/` | Grid Crawler | Classic turn-based roguelike (like Brogue / Dungeon Crawl Stone Soup) | Design only |
 | `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Playable |
 | `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Design only |

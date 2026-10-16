@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Key Mage as playable game number 31 and marked it ready in the launcher (`key-mage/`, `server.mjs`, `README.md`) — see `key-mage/CHANGELOG.md`.
 - Built Bullet Bloom as playable game number 30 and marked it ready in the launcher (`bullet-bloom/`, `server.mjs`, `README.md`) — see `bullet-bloom/CHANGELOG.md`.
 - Built Storm Haven as playable game number 29 and marked it ready in the launcher (`storm-haven/`, `server.mjs`, `README.md`) — see `storm-haven/CHANGELOG.md`.
 - Built Pocket Wilds as playable game number 28 and marked it ready in the launcher (`pocket-wilds/`, `server.mjs`, `README.md`) — see `pocket-wilds/CHANGELOG.md`.
