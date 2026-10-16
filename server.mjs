@@ -52,7 +52,7 @@ const GAMES = [
   { dir: 'street-brawl', title: 'Street Brawl', icon: '👊', style: 'Side-scrolling beat em up', color: '#d62828', ready: true, added: '2026-10-16T16:39' },
   { dir: 'duel-dojo', title: 'Duel Dojo', icon: '🥋', style: '1v1 fighting', color: '#f77f00', ready: true, added: '2026-10-16T16:39' },
   { dir: 'drift-rocks', title: 'Drift Rocks', icon: '☄️', style: 'Inertia space shooter', color: '#8ecae6', ready: true, added: '2026-10-16T16:39' },
-  { dir: 'herd-path', title: 'Herd Path', icon: '🐑', style: 'Unit guiding puzzle', color: '#90e0ef', ready: false, added: '2026-10-16T16:39' },
+  { dir: 'herd-path', title: 'Herd Path', icon: '🐑', style: 'Unit guiding puzzle', color: '#90e0ef', ready: true, added: '2026-10-16T16:39' },
   { dir: 'idle-empire', title: 'Idle Empire', icon: '🏛️', style: 'Incremental idle', color: '#ffd60a', ready: true, added: '2026-10-16T16:39' },
   { dir: 'crate-crypt', title: 'Crate Crypt', icon: '📦', style: 'Push-block puzzle', color: '#bb9457', ready: false, added: '2026-10-16T16:39' },
   { dir: 'pixel-oracle', title: 'Pixel Oracle', icon: '🔳', style: 'Nonogram logic', color: '#7678ed', ready: false, added: '2026-10-16T16:39' },
