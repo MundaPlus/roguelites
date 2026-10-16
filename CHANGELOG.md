@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Tower Topple as playable game number 34 and marked it ready in the launcher (`tower-topple/`, `server.mjs`, `README.md`) — see `tower-topple/CHANGELOG.md`.
 - Built Trade Winds as playable game number 33 and marked it ready in the launcher (`trade-winds/`, `server.mjs`, `README.md`) — see `trade-winds/CHANGELOG.md`.
 - Built Lane Push as playable game number 32 and marked it ready in the launcher (`lane-push/`, `server.mjs`, `README.md`) — see `lane-push/CHANGELOG.md`.
 - Built Key Mage as playable game number 31 and marked it ready in the launcher (`key-mage/`, `server.mjs`, `README.md`) — see `key-mage/CHANGELOG.md`.

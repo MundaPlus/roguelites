@@ -43,7 +43,7 @@ const GAMES = [
   { dir: 'key-mage', title: 'Key Mage', icon: '⌨️', style: 'Typing roguelite', color: '#4cc9f0', ready: true, added: '2026-10-16T16:32' },
   { dir: 'grid-crawler', title: 'Grid Crawler', icon: '🗡️', style: 'Classic turn-based roguelike', color: '#adb5bd', ready: false, added: '2026-10-16T16:39' },
   { dir: 'bullet-bloom', title: 'Bullet Bloom', icon: '🌸', style: 'Vertical bullet-hell shooter', color: '#ff70a6', ready: true, added: '2026-10-16T16:39' },
-  { dir: 'tower-topple', title: 'Tower Topple', icon: '🏗️', style: 'Physics stacking', color: '#ffb703', ready: false, added: '2026-10-16T16:39' },
+  { dir: 'tower-topple', title: 'Tower Topple', icon: '🏗️', style: 'Physics stacking', color: '#ffb703', ready: true, added: '2026-10-16T16:39' },
   { dir: 'lane-push', title: 'Lane Push', icon: '🏹', style: 'Real-time lane attack', color: '#3a86ff', ready: true, added: '2026-10-16T16:39' },
   { dir: 'trade-winds', title: 'Trade Winds', icon: '⛵', style: 'Merchant trading', color: '#00b4d8', ready: true, added: '2026-10-16T16:39' },
   { dir: 'brick-rogue', title: 'Brick Rogue', icon: '🏓', style: 'Brick breaker', color: '#e76f51', ready: false, added: '2026-10-16T16:39' },

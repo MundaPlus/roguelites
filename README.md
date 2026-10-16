@@ -36,7 +36,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Playable |
 | `grid-crawler/` | Grid Crawler | Classic turn-based roguelike (like Brogue / Dungeon Crawl Stone Soup) | Design only |
 | `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Playable |
-| `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Design only |
+| `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Playable |
 | `lane-push/` | Lane Push | Real-time lane attack (like Clash Royale / reverse Plants vs. Zombies) | Playable |
 | `trade-winds/` | Trade Winds | Merchant trading (like Taipan / Merchant of the Seas) | Playable |
 | `brick-rogue/` | Brick Rogue | Brick breaker (like Breakout / Arkanoid roguelites) | Design only |
