@@ -17,7 +17,7 @@ const GAMES = [
   { dir: 'dice-and-dungeons', title: 'Dice & Dungeons', icon: '🎲', style: 'Dice-placement puzzle combat', color: '#f4a261', ready: true, added: '2026-10-15T19:28' },
   { dir: 'hexfall-tactics', title: 'Hexfall Tactics', icon: '⬢', style: 'Grid-tactics squad', color: '#4895ef', ready: true, added: '2026-10-15T19:28' },
   { dir: 'peg-bounce', title: 'Peg Bounce', icon: '🔮', style: 'Physics pachinko combat', color: '#c77dff', ready: true, added: '2026-10-16T08:23' },
-  { dir: 'high-card', title: 'High Card', icon: '🂡', style: 'Poker-hand scoring', color: '#e63946', ready: false, added: '2026-10-16T08:23' },
+  { dir: 'high-card', title: 'High Card', icon: '🂡', style: 'Poker-hand scoring', color: '#e63946', ready: true, added: '2026-10-16T08:23' },
   { dir: 'last-bastion', title: 'Last Bastion', icon: '🏰', style: 'Run-based tower defense', color: '#2a9d8f', ready: false, added: '2026-10-16T08:23' },
   { dir: 'cave-diver', title: 'Cave Diver', icon: '🪢', style: 'Side-view platformer', color: '#e9c46a', ready: false, added: '2026-10-16T08:23' },
   { dir: 'loop-warden', title: 'Loop Warden', icon: '♾️', style: 'Loop auto-battler', color: '#90be6d', ready: true, added: '2026-10-16T08:23' },
