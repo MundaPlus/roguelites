@@ -36,7 +36,7 @@ const GAMES = [
   { dir: 'rogue-rally', title: 'Rogue Rally', icon: '🏎️', style: 'Top-down racing roguelite', color: '#e85d04', ready: true, added: '2026-10-16T16:27' },
   { dir: 'dust-trail', title: 'Dust Trail', icon: '🐎', style: 'Caravan journey survival', color: '#d4a373', ready: true, added: '2026-10-16T16:27' },
   { dir: 'brew-rogue', title: 'Brew Rogue', icon: '⚗️', style: 'Potion-brewing roguelite', color: '#7209b7', ready: true, added: '2026-10-16T16:27' },
-  { dir: 'sweep-saga', title: 'Sweep Saga', icon: '💣', style: 'Minesweeper roguelite', color: '#ef233c', ready: false, added: '2026-10-16T16:32' },
+  { dir: 'sweep-saga', title: 'Sweep Saga', icon: '💣', style: 'Minesweeper roguelite', color: '#ef233c', ready: true, added: '2026-10-16T16:32' },
   { dir: 'pocket-wilds', title: 'Pocket Wilds', icon: '🐾', style: 'Monster-taming roguelite', color: '#06a77d', ready: false, added: '2026-10-16T16:32' },
   { dir: 'critter-clash', title: 'Critter Clash', icon: '🦊', style: 'Team auto-battler', color: '#fb8500', ready: false, added: '2026-10-16T16:32' },
   { dir: 'storm-haven', title: 'Storm Haven', icon: '🏘️', style: 'Settlement builder roguelite', color: '#2a9d8f', ready: false, added: '2026-10-16T16:32' },
