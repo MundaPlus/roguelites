@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Brick Rogue as playable game number 35 and marked it ready in the launcher (`brick-rogue/`, `server.mjs`, `README.md`) — see `brick-rogue/CHANGELOG.md`.
 - Built Tower Topple as playable game number 34 and marked it ready in the launcher (`tower-topple/`, `server.mjs`, `README.md`) — see `tower-topple/CHANGELOG.md`.
 - Built Trade Winds as playable game number 33 and marked it ready in the launcher (`trade-winds/`, `server.mjs`, `README.md`) — see `trade-winds/CHANGELOG.md`.
 - Built Lane Push as playable game number 32 and marked it ready in the launcher (`lane-push/`, `server.mjs`, `README.md`) — see `lane-push/CHANGELOG.md`.
