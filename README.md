@@ -24,7 +24,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `cursed-fairway/` | Cursed Fairway | Golf roguelite (like Cursed to Golf) | Playable |
 | `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Playable |
 | `silent-contract/` | Silent Contract | Turn-based stealth heist (like Invisible Inc.) | Design only |
-| `block-siege/` | Block Siege | Falling-block combat (like Tetris with enemies) | Design only |
+| `block-siege/` | Block Siege | Falling-block combat (like Tetris with enemies) | Playable |
 | `deep-lure/` | Deep Lure | Fishing roguelite (like Dredge) | Design only |
 | `rogue-rally/` | Rogue Rally | Top-down racing roguelite (like Micro Machines with upgrades) | Design only |
 | `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Design only |

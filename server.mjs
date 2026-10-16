@@ -31,7 +31,7 @@ const GAMES = [
   { dir: 'cursed-fairway', title: 'Cursed Fairway', icon: '⛳', style: 'Golf roguelite', color: '#38b000', ready: true, added: '2026-10-16T16:21' },
   { dir: 'dome-digger', title: 'Dome Digger', icon: '⛏️', style: 'Mining plus wave defense', color: '#9c6644', ready: true, added: '2026-10-16T16:21' },
   { dir: 'silent-contract', title: 'Silent Contract', icon: '🕵️', style: 'Turn-based stealth heist', color: '#4361ee', ready: false, added: '2026-10-16T16:21' },
-  { dir: 'block-siege', title: 'Block Siege', icon: '🧱', style: 'Falling-block combat', color: '#f72585', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'block-siege', title: 'Block Siege', icon: '🧱', style: 'Falling-block combat', color: '#f72585', ready: true, added: '2026-10-16T16:27' },
   { dir: 'deep-lure', title: 'Deep Lure', icon: '🎣', style: 'Fishing roguelite', color: '#0096c7', ready: false, added: '2026-10-16T16:27' },
   { dir: 'rogue-rally', title: 'Rogue Rally', icon: '🏎️', style: 'Top-down racing roguelite', color: '#e85d04', ready: false, added: '2026-10-16T16:27' },
   { dir: 'dust-trail', title: 'Dust Trail', icon: '🐎', style: 'Caravan journey survival', color: '#d4a373', ready: false, added: '2026-10-16T16:27' },
