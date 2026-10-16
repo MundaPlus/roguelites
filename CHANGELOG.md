@@ -1,6 +1,8 @@
 # Changelog
 
 ## 2026-10-16
+- Built Peg Bounce as the sixth playable game and marked it ready in the launcher (`peg-bounce/`, `server.mjs`, `README.md`) — see `peg-bounce/CHANGELOG.md`.
+- Added an emoji favicon to Peg Bounce and Hexfall Tactics (`*/index.html`) — browsers logged a 404 for the missing favicon.
 - Built Hexfall Tactics as the fifth playable game and marked it ready in the launcher (`hexfall-tactics/`, `server.mjs`, `README.md`) — see `hexfall-tactics/CHANGELOG.md`.
 - Added a systemd user service for the LAN server and enabled it (`roguelites.service`, `README.md`) — the server was down and did not start again after a reboot.
 - Built Dice & Dungeons as the fourth playable game and marked it ready in the launcher (`dice-and-dungeons/`, `server.mjs`, `README.md`) — see `dice-and-dungeons/CHANGELOG.md`.
