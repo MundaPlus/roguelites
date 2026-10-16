@@ -7,7 +7,12 @@
     "deckbound-spire",
     "neon-depths",
     "dice-and-dungeons",
-    "hexfall-tactics"
+    "hexfall-tactics",
+    "peg-bounce",
+    "high-card",
+    "last-bastion",
+    "cave-diver",
+    "loop-warden"
   ],
   "scripts": {
     "dev:ember": "npm run dev -w ember-swarm",
@@ -15,6 +20,11 @@
     "dev:neon": "npm run dev -w neon-depths",
     "dev:dice": "npm run dev -w dice-and-dungeons",
     "dev:hex": "npm run dev -w hexfall-tactics",
+    "dev:peg": "npm run dev -w peg-bounce",
+    "dev:card": "npm run dev -w high-card",
+    "dev:td": "npm run dev -w last-bastion",
+    "dev:cave": "npm run dev -w cave-diver",
+    "dev:loop": "npm run dev -w loop-warden",
     "build": "npm run build --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",
