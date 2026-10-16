@@ -30,7 +30,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Playable |
 | `brew-rogue/` | Brew Rogue | Potion-brewing roguelite (like Potion Craft) | Playable |
 | `sweep-saga/` | Sweep Saga | Minesweeper roguelite (like Dragonsweeper / DemonCrawl) | Playable |
-| `pocket-wilds/` | Pocket Wilds | Monster-taming roguelite (like Pokémon roguelites / Cassette Beasts) | Design only |
+| `pocket-wilds/` | Pocket Wilds | Monster-taming roguelite (like Pokémon roguelites / Cassette Beasts) | Playable |
 | `critter-clash/` | Critter Clash | Team auto-battler (like Super Auto Pets) | Playable |
 | `storm-haven/` | Storm Haven | Settlement builder roguelite (like Against the Storm) | Design only |
 | `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Design only |
