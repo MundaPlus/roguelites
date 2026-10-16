@@ -22,7 +22,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `spin-lord/` | Spin Lord | Slot-machine deck builder (like Luck be a Landlord) | Playable |
 | `conga-quest/` | Conga Quest | Snake-style party crawler (like Nimble Quest) | Playable |
 | `cursed-fairway/` | Cursed Fairway | Golf roguelite (like Cursed to Golf) | Playable |
-| `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Design only |
+| `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Playable |
 | `silent-contract/` | Silent Contract | Turn-based stealth heist (like Invisible Inc.) | Design only |
 | `block-siege/` | Block Siege | Falling-block combat (like Tetris with enemies) | Design only |
 | `deep-lure/` | Deep Lure | Fishing roguelite (like Dredge) | Design only |
