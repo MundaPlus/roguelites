@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Added a systemd user service for the LAN server and enabled it (`roguelites.service`, `README.md`) — the server was down and did not start again after a reboot.
 - Built Dice & Dungeons as the fourth playable game and marked it ready in the launcher (`dice-and-dungeons/`, `server.mjs`, `README.md`) — see `dice-and-dungeons/CHANGELOG.md`.
 - Added five new games as placeholders with design READMEs: Peg Bounce, High Card, Last Bastion, Cave Diver, Loop Warden (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.
 - Merged `develop` into `master` and pushed both — three games are playable.

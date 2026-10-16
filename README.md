@@ -44,6 +44,8 @@ Open `http://<this-machine-ip>:8090/` on any device on the LAN. The server print
 
 - `server.mjs` is a small Node static server with no dependencies. It serves each `<game>/dist` folder at `/<game>/`.
 - Set `PORT` or `HOST` to change the defaults (`8090`, `0.0.0.0`).
+- On this machine the server runs as the systemd user service `roguelites.service` (file in the repo root). It starts at boot. After a new build, run `systemctl --user restart roguelites` only if `server.mjs` changed. The server reads `dist` on each request.
+- Install it on another machine: `systemctl --user link "$PWD/roguelites.service" && systemctl --user enable --now roguelites`. Run `loginctl enable-linger $USER` once, so it starts without a login.
 - Save data (gold, unlocks) lives in each browser's `localStorage`, so every device has its own progress.
 
 Each game folder has a `README.md` with its design.

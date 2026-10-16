@@ -1,0 +1,14 @@
+[Unit]
+Description=Roguelites LAN game server (port 8090)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/git_projects/roguelites
+ExecStart=/usr/bin/node server.mjs
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
