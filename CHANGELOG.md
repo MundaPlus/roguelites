@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Lane Push as playable game number 32 and marked it ready in the launcher (`lane-push/`, `server.mjs`, `README.md`) — see `lane-push/CHANGELOG.md`.
 - Built Key Mage as playable game number 31 and marked it ready in the launcher (`key-mage/`, `server.mjs`, `README.md`) — see `key-mage/CHANGELOG.md`.
 - Built Bullet Bloom as playable game number 30 and marked it ready in the launcher (`bullet-bloom/`, `server.mjs`, `README.md`) — see `bullet-bloom/CHANGELOG.md`.
 - Built Storm Haven as playable game number 29 and marked it ready in the launcher (`storm-haven/`, `server.mjs`, `README.md`) — see `storm-haven/CHANGELOG.md`.
