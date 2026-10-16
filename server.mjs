@@ -11,31 +11,36 @@ const PORT = Number(process.env.PORT ?? 8090);
 const HOST = process.env.HOST ?? '0.0.0.0';
 
 const GAMES = [
-  { dir: 'ember-swarm', title: 'Ember Swarm', icon: '🔥', style: 'Auto-shooter survival', color: '#ff9f1c', ready: true },
-  { dir: 'deckbound-spire', title: 'Deckbound Spire', icon: '🃏', style: 'Turn-based deckbuilder', color: '#9d4edd', ready: true },
-  { dir: 'neon-depths', title: 'Neon Depths', icon: '🔫', style: 'Twin-stick room clearing', color: '#00f5d4', ready: true },
-  { dir: 'dice-and-dungeons', title: 'Dice & Dungeons', icon: '🎲', style: 'Dice-placement puzzle combat', color: '#f4a261', ready: true },
-  { dir: 'hexfall-tactics', title: 'Hexfall Tactics', icon: '⬢', style: 'Grid-tactics squad', color: '#4895ef', ready: true },
-  { dir: 'peg-bounce', title: 'Peg Bounce', icon: '🔮', style: 'Physics pachinko combat', color: '#c77dff', ready: true },
-  { dir: 'high-card', title: 'High Card', icon: '🂡', style: 'Poker-hand scoring', color: '#e63946', ready: false },
-  { dir: 'last-bastion', title: 'Last Bastion', icon: '🏰', style: 'Run-based tower defense', color: '#2a9d8f', ready: false },
-  { dir: 'cave-diver', title: 'Cave Diver', icon: '🪢', style: 'Side-view platformer', color: '#e9c46a', ready: false },
-  { dir: 'loop-warden', title: 'Loop Warden', icon: '♾️', style: 'Loop auto-battler', color: '#90be6d', ready: false },
-  { dir: 'word-smith', title: 'Word Smith', icon: '🔤', style: 'Word-spelling combat', color: '#f77f00', ready: false },
-  { dir: 'chain-crawl', title: 'Chain Crawl', icon: '⛓️', style: 'Swipe-chain puzzle combat', color: '#06d6a0', ready: false },
-  { dir: 'beat-delver', title: 'Beat Delver', icon: '🥁', style: 'Rhythm dungeon crawler', color: '#ff006e', ready: false },
-  { dir: 'pack-rat', title: 'Pack Rat', icon: '🎒', style: 'Backpack-builder auto-battler', color: '#bc6c25', ready: false },
-  { dir: 'starward-drift', title: 'Starward Drift', icon: '🚀', style: 'Ship crew management with pause', color: '#48cae4', ready: false },
-  { dir: 'spin-lord', title: 'Spin Lord', icon: '🎰', style: 'Slot-machine deck builder', color: '#ffbe0b', ready: false },
-  { dir: 'conga-quest', title: 'Conga Quest', icon: '🐍', style: 'Snake-style party crawler', color: '#8338ec', ready: false },
-  { dir: 'cursed-fairway', title: 'Cursed Fairway', icon: '⛳', style: 'Golf roguelite', color: '#38b000', ready: false },
-  { dir: 'dome-digger', title: 'Dome Digger', icon: '⛏️', style: 'Mining plus wave defense', color: '#9c6644', ready: false },
-  { dir: 'silent-contract', title: 'Silent Contract', icon: '🕵️', style: 'Turn-based stealth heist', color: '#4361ee', ready: false },
-  { dir: 'block-siege', title: 'Block Siege', icon: '🧱', style: 'Falling-block combat', color: '#f72585', ready: false },
-  { dir: 'deep-lure', title: 'Deep Lure', icon: '🎣', style: 'Fishing roguelite', color: '#0096c7', ready: false },
-  { dir: 'rogue-rally', title: 'Rogue Rally', icon: '🏎️', style: 'Top-down racing roguelite', color: '#e85d04', ready: false },
-  { dir: 'dust-trail', title: 'Dust Trail', icon: '🐎', style: 'Caravan journey survival', color: '#d4a373', ready: false },
-  { dir: 'brew-rogue', title: 'Brew Rogue', icon: '⚗️', style: 'Potion-brewing roguelite', color: '#7209b7', ready: false },
+  { dir: 'ember-swarm', title: 'Ember Swarm', icon: '🔥', style: 'Auto-shooter survival', color: '#ff9f1c', ready: true, added: '2026-10-15T19:28' },
+  { dir: 'deckbound-spire', title: 'Deckbound Spire', icon: '🃏', style: 'Turn-based deckbuilder', color: '#9d4edd', ready: true, added: '2026-10-15T19:28' },
+  { dir: 'neon-depths', title: 'Neon Depths', icon: '🔫', style: 'Twin-stick room clearing', color: '#00f5d4', ready: true, added: '2026-10-15T19:28' },
+  { dir: 'dice-and-dungeons', title: 'Dice & Dungeons', icon: '🎲', style: 'Dice-placement puzzle combat', color: '#f4a261', ready: true, added: '2026-10-15T19:28' },
+  { dir: 'hexfall-tactics', title: 'Hexfall Tactics', icon: '⬢', style: 'Grid-tactics squad', color: '#4895ef', ready: true, added: '2026-10-15T19:28' },
+  { dir: 'peg-bounce', title: 'Peg Bounce', icon: '🔮', style: 'Physics pachinko combat', color: '#c77dff', ready: true, added: '2026-10-16T08:23' },
+  { dir: 'high-card', title: 'High Card', icon: '🂡', style: 'Poker-hand scoring', color: '#e63946', ready: false, added: '2026-10-16T08:23' },
+  { dir: 'last-bastion', title: 'Last Bastion', icon: '🏰', style: 'Run-based tower defense', color: '#2a9d8f', ready: false, added: '2026-10-16T08:23' },
+  { dir: 'cave-diver', title: 'Cave Diver', icon: '🪢', style: 'Side-view platformer', color: '#e9c46a', ready: false, added: '2026-10-16T08:23' },
+  { dir: 'loop-warden', title: 'Loop Warden', icon: '♾️', style: 'Loop auto-battler', color: '#90be6d', ready: false, added: '2026-10-16T08:23' },
+  { dir: 'word-smith', title: 'Word Smith', icon: '🔤', style: 'Word-spelling combat', color: '#f77f00', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'chain-crawl', title: 'Chain Crawl', icon: '⛓️', style: 'Swipe-chain puzzle combat', color: '#06d6a0', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'beat-delver', title: 'Beat Delver', icon: '🥁', style: 'Rhythm dungeon crawler', color: '#ff006e', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'pack-rat', title: 'Pack Rat', icon: '🎒', style: 'Backpack-builder auto-battler', color: '#bc6c25', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'starward-drift', title: 'Starward Drift', icon: '🚀', style: 'Ship crew management with pause', color: '#48cae4', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'spin-lord', title: 'Spin Lord', icon: '🎰', style: 'Slot-machine deck builder', color: '#ffbe0b', ready: false, added: '2026-10-16T16:21' },
+  { dir: 'conga-quest', title: 'Conga Quest', icon: '🐍', style: 'Snake-style party crawler', color: '#8338ec', ready: false, added: '2026-10-16T16:21' },
+  { dir: 'cursed-fairway', title: 'Cursed Fairway', icon: '⛳', style: 'Golf roguelite', color: '#38b000', ready: false, added: '2026-10-16T16:21' },
+  { dir: 'dome-digger', title: 'Dome Digger', icon: '⛏️', style: 'Mining plus wave defense', color: '#9c6644', ready: false, added: '2026-10-16T16:21' },
+  { dir: 'silent-contract', title: 'Silent Contract', icon: '🕵️', style: 'Turn-based stealth heist', color: '#4361ee', ready: false, added: '2026-10-16T16:21' },
+  { dir: 'block-siege', title: 'Block Siege', icon: '🧱', style: 'Falling-block combat', color: '#f72585', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'deep-lure', title: 'Deep Lure', icon: '🎣', style: 'Fishing roguelite', color: '#0096c7', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'rogue-rally', title: 'Rogue Rally', icon: '🏎️', style: 'Top-down racing roguelite', color: '#e85d04', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'dust-trail', title: 'Dust Trail', icon: '🐎', style: 'Caravan journey survival', color: '#d4a373', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'brew-rogue', title: 'Brew Rogue', icon: '⚗️', style: 'Potion-brewing roguelite', color: '#7209b7', ready: false, added: '2026-10-16T16:27' },
+  { dir: 'sweep-saga', title: 'Sweep Saga', icon: '💣', style: 'Minesweeper roguelite', color: '#ef233c', ready: false, added: '2026-10-16T16:32' },
+  { dir: 'pocket-wilds', title: 'Pocket Wilds', icon: '🐾', style: 'Monster-taming roguelite', color: '#06a77d', ready: false, added: '2026-10-16T16:32' },
+  { dir: 'critter-clash', title: 'Critter Clash', icon: '🦊', style: 'Team auto-battler', color: '#fb8500', ready: false, added: '2026-10-16T16:32' },
+  { dir: 'storm-haven', title: 'Storm Haven', icon: '🏘️', style: 'Settlement builder roguelite', color: '#2a9d8f', ready: false, added: '2026-10-16T16:32' },
+  { dir: 'key-mage', title: 'Key Mage', icon: '⌨️', style: 'Typing roguelite', color: '#4cc9f0', ready: false, added: '2026-10-16T16:32' },
 ];
 
 const TYPES = {
@@ -55,33 +60,151 @@ const TYPES = {
 };
 
 function launcher() {
-  const cards = GAMES.map(
-    (g) => `<a class="card ${g.ready ? '' : 'soon'}" href="/${g.dir}/" style="--c:${g.color}">
-      <span class="icon">${g.icon}</span>
-      <b>${g.title}</b>
-      <small>${g.style}</small>
-      <span class="tag">${g.ready ? '▶ Play' : 'Coming soon'}</span>
-    </a>`,
-  ).join('');
+  // The page renders the cards itself: sort, favorites and pages live in the browser.
+  const data = JSON.stringify(GAMES.map((g, i) => ({ ...g, order: i })));
+  const playable = GAMES.filter((g) => g.ready).length;
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Roguelites</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
 <style>
-  :root { color-scheme: dark; }
-  body { margin: 0; min-height: 100vh; background: #0f0d12; color: #eee; font-family: system-ui, sans-serif; display: grid; place-items: center; }
-  main { width: min(900px, 100%); padding: 24px 16px; box-sizing: border-box; }
-  h1 { text-align: center; font-size: clamp(2rem, 6vw, 3rem); letter-spacing: .06em; margin: 0 0 24px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
-  .card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 20px 12px; border-radius: 14px;
-    border: 1px solid color-mix(in srgb, var(--c) 40%, transparent); background: color-mix(in srgb, var(--c) 8%, #16131a);
-    color: inherit; text-decoration: none; text-align: center; transition: transform .1s, box-shadow .15s; }
+  :root { color-scheme: dark; --line: rgba(255,255,255,.12); --muted: #aaa; --accent: #ffd166; }
+  body { margin: 0; min-height: 100vh; background: #0f0d12; color: #eee; font-family: system-ui, sans-serif; }
+  main { width: min(960px, 100%); margin: 0 auto; padding: 24px 16px; box-sizing: border-box; }
+  h1 { text-align: center; font-size: clamp(2rem, 6vw, 3rem); letter-spacing: .06em; margin: 0; }
+  .sub { text-align: center; color: var(--muted); margin: 4px 0 18px; }
+  .bar { display: flex; justify-content: center; margin-bottom: 16px; }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .seg button { font: inherit; color: inherit; background: transparent; border: 0; padding: 8px 14px; cursor: pointer; }
+  .seg button + button { border-left: 1px solid var(--line); }
+  .seg button[aria-pressed="true"] { background: rgba(255,209,102,.16); color: var(--accent); font-weight: 700; }
+  .grid { display: grid; grid-template-columns: repeat(var(--cols, 4), 1fr); gap: 12px; }
+  .card { position: relative; border-radius: 14px; border: 1px solid color-mix(in srgb, var(--c) 40%, transparent);
+    background: color-mix(in srgb, var(--c) 8%, #16131a); transition: transform .1s, box-shadow .15s; }
   .card:hover { transform: translateY(-3px); box-shadow: 0 0 30px color-mix(in srgb, var(--c) 35%, transparent); }
-  .card.soon { opacity: .5; }
+  .card a { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 20px 12px 14px; min-height: 150px;
+    box-sizing: border-box; color: inherit; text-decoration: none; text-align: center; border-radius: 14px; }
+  .card.soon a { opacity: .5; }
   .icon { font-size: 2.6rem; }
-  small { color: #aaa; }
-  .tag { margin-top: 6px; font-weight: 700; color: var(--c); font-size: .9rem; }
+  small { color: var(--muted); }
+  .date { font-size: .7rem; }
+  .tag { margin-top: auto; font-weight: 700; color: var(--c); font-size: .9rem; }
+  .fav { position: absolute; top: 6px; right: 6px; z-index: 1; font-size: 1.25rem; line-height: 1; padding: 6px; cursor: pointer;
+    background: transparent; border: 0; color: #666; border-radius: 8px; }
+  .fav:hover { color: #bbb; background: rgba(255,255,255,.06); }
+  .fav[aria-pressed="true"] { color: var(--accent); text-shadow: 0 0 10px rgba(255,209,102,.6); }
+  .pager { display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 18px; flex-wrap: wrap; }
+  .pager button { font: inherit; color: inherit; background: rgba(255,255,255,.05); border: 1px solid var(--line); border-radius: 10px;
+    min-width: 38px; padding: 7px 10px; cursor: pointer; }
+  .pager button:disabled { opacity: .35; cursor: default; }
+  .pager button[aria-current="page"] { border-color: var(--accent); color: var(--accent); font-weight: 700; }
+  .empty { text-align: center; color: var(--muted); }
 </style></head>
-<body><main><h1>ROGUELITES</h1><div class="grid">${cards}</div></main></body></html>`;
+<body><main>
+  <h1>ROGUELITES</h1>
+  <p class="sub">${GAMES.length} games · ${playable} playable</p>
+  <div class="bar"><div class="seg" role="group" aria-label="Sort">
+    <button data-sort="fav">★ Favorites</button><button data-sort="date">🕒 Newest</button><button data-sort="alpha">A–Z</button>
+  </div></div>
+  <div class="grid" id="grid"></div>
+  <nav class="pager" id="pager" aria-label="Pages"></nav>
+</main>
+<script>
+const GAMES = ${data};
+const ROWS = 3, MIN_W = 160, GAP = 12;
+const store = {
+  get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+let favs = new Set(store.get('roguelites.favs', []));
+let sort = store.get('roguelites.sort', 'fav');
+let page = 0;
+const grid = document.getElementById('grid');
+const pager = document.getElementById('pager');
+const fmt = new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric' });
+const newest = (a, b) => b.added.localeCompare(a.added) || b.order - a.order;
+
+function sorted() {
+  const list = [...GAMES];
+  if (sort === 'alpha') return list.sort((a, b) => a.title.localeCompare(b.title));
+  if (sort === 'date') return list.sort(newest);
+  // Favorites first, then playable games, then the newest placeholders.
+  return list.sort((a, b) => (favs.has(b.dir) - favs.has(a.dir)) || (b.ready - a.ready) || newest(a, b));
+}
+
+function cols() {
+  return Math.max(1, Math.floor((grid.clientWidth + GAP) / (MIN_W + GAP)));
+}
+
+function card(g) {
+  const fav = favs.has(g.dir);
+  return '<article class="card ' + (g.ready ? '' : 'soon') + '" style="--c:' + g.color + '">'
+    + '<button class="fav" data-fav="' + g.dir + '" aria-pressed="' + fav + '" title="' + (fav ? 'Remove from favorites' : 'Add to favorites') + '">' + (fav ? '★' : '☆') + '</button>'
+    + '<a href="/' + g.dir + '/"><span class="icon">' + g.icon + '</span><b>' + g.title + '</b><small>' + g.style + '</small>'
+    + '<small class="date">Added ' + fmt.format(new Date(g.added)) + '</small>'
+    + '<span class="tag">' + (g.ready ? '▶ Play' : 'Coming soon') + '</span></a></article>';
+}
+
+function render() {
+  const c = cols();
+  grid.style.setProperty('--cols', c);
+  const size = c * ROWS;
+  const list = sorted();
+  const pages = Math.max(1, Math.ceil(list.length / size));
+  page = Math.min(Math.max(0, page), pages - 1);
+  grid.innerHTML = list.slice(page * size, page * size + size).map(card).join('');
+  for (const b of document.querySelectorAll('[data-sort]')) b.setAttribute('aria-pressed', String(b.dataset.sort === sort));
+  let nav = '<button data-page="' + (page - 1) + '" ' + (page === 0 ? 'disabled' : '') + ' aria-label="Previous page">‹</button>';
+  for (let i = 0; i < pages; i++) nav += '<button data-page="' + i + '"' + (i === page ? ' aria-current="page"' : '') + '>' + (i + 1) + '</button>';
+  nav += '<button data-page="' + (page + 1) + '" ' + (page >= pages - 1 ? 'disabled' : '') + ' aria-label="Next page">›</button>';
+  pager.innerHTML = pages > 1 ? nav : '';
+}
+
+document.addEventListener('click', (e) => {
+  const fav = e.target.closest('[data-fav]');
+  if (fav) {
+    const id = fav.dataset.fav;
+    if (favs.has(id)) favs.delete(id); else favs.add(id);
+    store.set('roguelites.favs', [...favs]);
+    return render();
+  }
+  const s = e.target.closest('[data-sort]');
+  if (s) {
+    sort = s.dataset.sort;
+    store.set('roguelites.sort', sort);
+    page = 0;
+    return render();
+  }
+  const p = e.target.closest('[data-page]');
+  if (p && !p.disabled) {
+    page = Number(p.dataset.page);
+    render();
+  }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowLeft') { page--; render(); }
+  if (e.key === 'ArrowRight') { page++; render(); }
+});
+let touchX = null;
+grid.addEventListener('touchstart', (e) => (touchX = e.touches[0].clientX), { passive: true });
+grid.addEventListener('touchend', (e) => {
+  if (touchX === null) return;
+  const dx = e.changedTouches[0].clientX - touchX;
+  touchX = null;
+  if (Math.abs(dx) > 60) { page += dx < 0 ? 1 : -1; render(); }
+});
+let lastCols = 0;
+new ResizeObserver(() => {
+  const c = cols();
+  if (c === lastCols) return;
+  // Keep the first card of the page in view when the column count changes.
+  const first = page * lastCols * ROWS;
+  lastCols = c;
+  page = Math.floor(first / (c * ROWS));
+  render();
+}).observe(grid);
+render();
+</script></body></html>`;
 }
 
 async function sendFile(res, file) {

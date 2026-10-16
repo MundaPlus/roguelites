@@ -1,6 +1,8 @@
 # Changelog
 
 ## 2026-10-16
+- Reworked the launcher page: 3 rows per page with pagination, a favorite star on each card, and sorting by favorites, newest or A–Z (`server.mjs`, `README.md`) — 30 games no longer fit on one screen.
+- Added five new games as placeholders with design READMEs: Sweep Saga, Pocket Wilds, Critter Clash, Storm Haven, Key Mage (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.
 - Added five new games as placeholders with design READMEs: Block Siege, Deep Lure, Rogue Rally, Dust Trail, Brew Rogue (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.
 - Added five new games as placeholders with design READMEs: Spin Lord, Conga Quest, Cursed Fairway, Dome Digger, Silent Contract (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.
 - Added five new games as placeholders with design READMEs: Word Smith, Chain Crawl, Beat Delver, Pack Rat, Starward Drift (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.

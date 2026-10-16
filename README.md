@@ -1,6 +1,6 @@
 # Roguelites
 
-Twenty-five small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
+Thirty small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
 
 | Folder | Game | Play style | Status |
 |---|---|---|---|
@@ -29,6 +29,11 @@ Twenty-five small web roguelite games. Each game has a different play style. All
 | `rogue-rally/` | Rogue Rally | Top-down racing roguelite (like Micro Machines with upgrades) | Design only |
 | `dust-trail/` | Dust Trail | Caravan journey survival (like Oregon Trail / Death Road to Canada) | Design only |
 | `brew-rogue/` | Brew Rogue | Potion-brewing roguelite (like Potion Craft) | Design only |
+| `sweep-saga/` | Sweep Saga | Minesweeper roguelite (like Dragonsweeper / DemonCrawl) | Design only |
+| `pocket-wilds/` | Pocket Wilds | Monster-taming roguelite (like Pokémon roguelites / Cassette Beasts) | Design only |
+| `critter-clash/` | Critter Clash | Team auto-battler (like Super Auto Pets) | Design only |
+| `storm-haven/` | Storm Haven | Settlement builder roguelite (like Against the Storm) | Design only |
+| `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Design only |
 
 ## Run
 
@@ -59,6 +64,11 @@ npm run dev:fish     # Deep Lure
 npm run dev:rally    # Rogue Rally
 npm run dev:trail    # Dust Trail
 npm run dev:brew     # Brew Rogue
+npm run dev:sweep    # Sweep Saga
+npm run dev:tame     # Pocket Wilds
+npm run dev:critter  # Critter Clash
+npm run dev:haven    # Storm Haven
+npm run dev:type     # Key Mage
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```
@@ -71,6 +81,10 @@ npm start            # serve only, without a new build
 ```
 
 Open `http://<this-machine-ip>:8090/` on any device on the LAN. The server prints its addresses at start. The launcher page links to all games.
+
+- The launcher shows 3 rows of cards per page. Use the page buttons, the `←` `→` keys or a swipe to change pages.
+- Click the ☆ on a card to mark a favorite. Sort by **★ Favorites** (favorites, then playable games, then the newest), **🕒 Newest** or **A–Z**.
+- Favorites and the sort choice are saved in the browser of each device.
 
 - `server.mjs` is a small Node static server with no dependencies. It serves each `<game>/dist` folder at `/<game>/`.
 - Set `PORT` or `HOST` to change the defaults (`8090`, `0.0.0.0`).

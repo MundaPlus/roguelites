@@ -27,7 +27,12 @@
     "deep-lure",
     "rogue-rally",
     "dust-trail",
-    "brew-rogue"
+    "brew-rogue",
+    "sweep-saga",
+    "pocket-wilds",
+    "critter-clash",
+    "storm-haven",
+    "key-mage"
   ],
   "scripts": {
     "dev:ember": "npm run dev -w ember-swarm",
@@ -55,6 +60,11 @@
     "dev:rally": "npm run dev -w rogue-rally",
     "dev:trail": "npm run dev -w dust-trail",
     "dev:brew": "npm run dev -w brew-rogue",
+    "dev:sweep": "npm run dev -w sweep-saga",
+    "dev:tame": "npm run dev -w pocket-wilds",
+    "dev:critter": "npm run dev -w critter-clash",
+    "dev:haven": "npm run dev -w storm-haven",
+    "dev:type": "npm run dev -w key-mage",
     "build": "npm run build --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",
