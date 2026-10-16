@@ -46,7 +46,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `duel-dojo/` | Duel Dojo | 1v1 fighting (like Street Fighter-style roguelites) | Playable |
 | `drift-rocks/` | Drift Rocks | Inertia space shooter (like Asteroids roguelites) | Playable |
 | `herd-path/` | Herd Path | Unit guiding puzzle (like Lemmings) | Design only |
-| `idle-empire/` | Idle Empire | Incremental idle (like Cookie Clicker / Antimatter Dimensions with prestige) | Design only |
+| `idle-empire/` | Idle Empire | Incremental idle (like Cookie Clicker / Antimatter Dimensions with prestige) | Playable |
 | `crate-crypt/` | Crate Crypt | Push-block puzzle (like Sokoban roguelites) | Design only |
 | `pixel-oracle/` | Pixel Oracle | Nonogram logic (like Picross roguelites) | Design only |
 | `dash-lanes/` | Dash Lanes | Endless lane runner (like Subway Surfers with roguelite upgrades) | Design only |

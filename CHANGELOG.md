@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Idle Empire as playable game number 42 and marked it ready in the launcher (`idle-empire/`, `server.mjs`, `README.md`) — see `idle-empire/CHANGELOG.md`.
 - Built Wild Camp as playable game number 41 and marked it ready in the launcher (`wild-camp/`, `server.mjs`, `README.md`) — see `wild-camp/CHANGELOG.md`.
 - Built Street Brawl as playable game number 40 and marked it ready in the launcher (`street-brawl/`, `server.mjs`, `README.md`) — see `street-brawl/CHANGELOG.md`.
 - Built Duel Dojo as playable game number 39 and marked it ready in the launcher (`duel-dojo/`, `server.mjs`, `README.md`) — see `duel-dojo/CHANGELOG.md`.
