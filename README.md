@@ -44,7 +44,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `wild-camp/` | Wild Camp | Survival crafting (like Don't Starve) | Design only |
 | `street-brawl/` | Street Brawl | Side-scrolling beat em up (like Streets of Rage / River City roguelites) | Design only |
 | `duel-dojo/` | Duel Dojo | 1v1 fighting (like Street Fighter-style roguelites) | Design only |
-| `drift-rocks/` | Drift Rocks | Inertia space shooter (like Asteroids roguelites) | Design only |
+| `drift-rocks/` | Drift Rocks | Inertia space shooter (like Asteroids roguelites) | Playable |
 | `herd-path/` | Herd Path | Unit guiding puzzle (like Lemmings) | Design only |
 | `idle-empire/` | Idle Empire | Incremental idle (like Cookie Clicker / Antimatter Dimensions with prestige) | Design only |
 | `crate-crypt/` | Crate Crypt | Push-block puzzle (like Sokoban roguelites) | Design only |

@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Drift Rocks as playable game number 38 and marked it ready in the launcher (`drift-rocks/`, `server.mjs`, `README.md`) — see `drift-rocks/CHANGELOG.md`.
 - Built Grid Crawler as playable game number 37 and marked it ready in the launcher (`grid-crawler/`, `server.mjs`, `README.md`) — see `grid-crawler/CHANGELOG.md`.
 - Built Solitaire Siege as playable game number 36 and marked it ready in the launcher (`solitaire-siege/`, `server.mjs`, `README.md`) — see `solitaire-siege/CHANGELOG.md`.
 - Built Brick Rogue as playable game number 35 and marked it ready in the launcher (`brick-rogue/`, `server.mjs`, `README.md`) — see `brick-rogue/CHANGELOG.md`.
