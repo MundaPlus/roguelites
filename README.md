@@ -38,7 +38,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Playable |
 | `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Design only |
 | `lane-push/` | Lane Push | Real-time lane attack (like Clash Royale / reverse Plants vs. Zombies) | Playable |
-| `trade-winds/` | Trade Winds | Merchant trading (like Taipan / Merchant of the Seas) | Design only |
+| `trade-winds/` | Trade Winds | Merchant trading (like Taipan / Merchant of the Seas) | Playable |
 | `brick-rogue/` | Brick Rogue | Brick breaker (like Breakout / Arkanoid roguelites) | Design only |
 | `solitaire-siege/` | Solitaire Siege | Solitaire card combat (like Solitairica) | Design only |
 | `wild-camp/` | Wild Camp | Survival crafting (like Don't Starve) | Design only |
