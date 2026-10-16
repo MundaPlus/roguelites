@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-16
+- Added a handover note for the next session (`handover.md`) — the old session reached its context limit.
+
 ## 2026-10-15
 - Built Neon Depths as the third playable game and marked it ready in the launcher (`neon-depths/`, `server.mjs`, `README.md`) — see `neon-depths/CHANGELOG.md`.
 - Built Deckbound Spire as the second playable game and marked it ready in the launcher (`deckbound-spire/`, `server.mjs`, `README.md`) — see `deckbound-spire/CHANGELOG.md`.
