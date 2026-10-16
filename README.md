@@ -12,7 +12,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `peg-bounce/` | Peg Bounce | Physics pachinko combat (like Peglin) | Playable |
 | `high-card/` | High Card | Poker-hand scoring (like Balatro) | Playable |
 | `last-bastion/` | Last Bastion | Run-based tower defense (like Rogue Tower) | Playable |
-| `cave-diver/` | Cave Diver | Side-view platformer (like Spelunky) | Design only |
+| `cave-diver/` | Cave Diver | Side-view platformer (like Spelunky) | Playable |
 | `loop-warden/` | Loop Warden | Loop auto-battler (like Loop Hero) | Playable |
 | `word-smith/` | Word Smith | Word-spelling combat (like Bookworm Adventures / Letter Quest) | Playable |
 | `chain-crawl/` | Chain Crawl | Swipe-chain puzzle combat (like Dungeon Raid) | Playable |
