@@ -1,6 +1,6 @@
 # Roguelites
 
-Ten small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
+Fifteen small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
 
 | Folder | Game | Play style | Status |
 |---|---|---|---|
@@ -14,6 +14,11 @@ Ten small web roguelite games. Each game has a different play style. All games u
 | `last-bastion/` | Last Bastion | Run-based tower defense (like Rogue Tower) | Design only |
 | `cave-diver/` | Cave Diver | Side-view platformer (like Spelunky) | Design only |
 | `loop-warden/` | Loop Warden | Loop auto-battler (like Loop Hero) | Design only |
+| `word-smith/` | Word Smith | Word-spelling combat (like Bookworm Adventures / Letter Quest) | Design only |
+| `chain-crawl/` | Chain Crawl | Swipe-chain puzzle combat (like Dungeon Raid) | Design only |
+| `beat-delver/` | Beat Delver | Rhythm dungeon crawler (like Crypt of the NecroDancer) | Design only |
+| `pack-rat/` | Pack Rat | Backpack-builder auto-battler (like Backpack Hero / Backpack Battles) | Design only |
+| `starward-drift/` | Starward Drift | Ship crew management with pause (like FTL) | Design only |
 
 ## Run
 
@@ -29,6 +34,11 @@ npm run dev:card     # High Card
 npm run dev:td       # Last Bastion
 npm run dev:cave     # Cave Diver
 npm run dev:loop     # Loop Warden
+npm run dev:word     # Word Smith
+npm run dev:chain    # Chain Crawl
+npm run dev:beat     # Beat Delver
+npm run dev:pack     # Pack Rat
+npm run dev:star     # Starward Drift
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```

@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Added five new games as placeholders with design READMEs: Word Smith, Chain Crawl, Beat Delver, Pack Rat, Starward Drift (`<game>/`, `package.json`, `server.mjs`, `README.md`) — more play styles to build later.
 - Built Peg Bounce as the sixth playable game and marked it ready in the launcher (`peg-bounce/`, `server.mjs`, `README.md`) — see `peg-bounce/CHANGELOG.md`.
 - Added an emoji favicon to Peg Bounce and Hexfall Tactics (`*/index.html`) — browsers logged a 404 for the missing favicon.
 - Built Hexfall Tactics as the fifth playable game and marked it ready in the launcher (`hexfall-tactics/`, `server.mjs`, `README.md`) — see `hexfall-tactics/CHANGELOG.md`.

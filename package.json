@@ -12,7 +12,12 @@
     "high-card",
     "last-bastion",
     "cave-diver",
-    "loop-warden"
+    "loop-warden",
+    "word-smith",
+    "chain-crawl",
+    "beat-delver",
+    "pack-rat",
+    "starward-drift"
   ],
   "scripts": {
     "dev:ember": "npm run dev -w ember-swarm",
@@ -25,6 +30,11 @@
     "dev:td": "npm run dev -w last-bastion",
     "dev:cave": "npm run dev -w cave-diver",
     "dev:loop": "npm run dev -w loop-warden",
+    "dev:word": "npm run dev -w word-smith",
+    "dev:chain": "npm run dev -w chain-crawl",
+    "dev:beat": "npm run dev -w beat-delver",
+    "dev:pack": "npm run dev -w pack-rat",
+    "dev:star": "npm run dev -w starward-drift",
     "build": "npm run build --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",
