@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Chain Crawl as playable game number 10 and marked it ready in the launcher (`chain-crawl/`, `server.mjs`, `README.md`) — see `chain-crawl/CHANGELOG.md`.
 - Built Last Bastion as playable game number 9 and marked it ready in the launcher (`last-bastion/`, `server.mjs`, `README.md`) — see `last-bastion/CHANGELOG.md`.
 - Built High Card as playable game number 8 and marked it ready in the launcher (`high-card/`, `server.mjs`, `README.md`) — see `high-card/CHANGELOG.md`.
 - Built Loop Warden as playable game number 7 and marked it ready in the launcher (`loop-warden/`, `server.mjs`, `README.md`) — see `loop-warden/CHANGELOG.md`.

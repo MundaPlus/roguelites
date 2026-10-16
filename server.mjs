@@ -22,7 +22,7 @@ const GAMES = [
   { dir: 'cave-diver', title: 'Cave Diver', icon: '🪢', style: 'Side-view platformer', color: '#e9c46a', ready: false, added: '2026-10-16T08:23' },
   { dir: 'loop-warden', title: 'Loop Warden', icon: '♾️', style: 'Loop auto-battler', color: '#90be6d', ready: true, added: '2026-10-16T08:23' },
   { dir: 'word-smith', title: 'Word Smith', icon: '🔤', style: 'Word-spelling combat', color: '#f77f00', ready: false, added: '2026-10-16T16:07' },
-  { dir: 'chain-crawl', title: 'Chain Crawl', icon: '⛓️', style: 'Swipe-chain puzzle combat', color: '#06d6a0', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'chain-crawl', title: 'Chain Crawl', icon: '⛓️', style: 'Swipe-chain puzzle combat', color: '#06d6a0', ready: true, added: '2026-10-16T16:07' },
   { dir: 'beat-delver', title: 'Beat Delver', icon: '🥁', style: 'Rhythm dungeon crawler', color: '#ff006e', ready: false, added: '2026-10-16T16:07' },
   { dir: 'pack-rat', title: 'Pack Rat', icon: '🎒', style: 'Backpack-builder auto-battler', color: '#bc6c25', ready: false, added: '2026-10-16T16:07' },
   { dir: 'starward-drift', title: 'Starward Drift', icon: '🚀', style: 'Ship crew management with pause', color: '#48cae4', ready: false, added: '2026-10-16T16:07' },
