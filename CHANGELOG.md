@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Starward Drift as playable game number 15 and marked it ready in the launcher (`starward-drift/`, `server.mjs`, `README.md`) — see `starward-drift/CHANGELOG.md`.
 - Built Spin Lord as playable game number 14 and marked it ready in the launcher (`spin-lord/`, `server.mjs`, `README.md`) — see `spin-lord/CHANGELOG.md`.
 - Built Beat Delver as playable game number 13 and marked it ready in the launcher (`beat-delver/`, `server.mjs`, `README.md`) — see `beat-delver/CHANGELOG.md`.
 - Built Cave Diver as playable game number 12 and marked it ready in the launcher (`cave-diver/`, `server.mjs`, `README.md`) — see `cave-diver/CHANGELOG.md`.

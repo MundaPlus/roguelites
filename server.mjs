@@ -25,7 +25,7 @@ const GAMES = [
   { dir: 'chain-crawl', title: 'Chain Crawl', icon: '⛓️', style: 'Swipe-chain puzzle combat', color: '#06d6a0', ready: true, added: '2026-10-16T16:07' },
   { dir: 'beat-delver', title: 'Beat Delver', icon: '🥁', style: 'Rhythm dungeon crawler', color: '#ff006e', ready: true, added: '2026-10-16T16:07' },
   { dir: 'pack-rat', title: 'Pack Rat', icon: '🎒', style: 'Backpack-builder auto-battler', color: '#bc6c25', ready: false, added: '2026-10-16T16:07' },
-  { dir: 'starward-drift', title: 'Starward Drift', icon: '🚀', style: 'Ship crew management with pause', color: '#48cae4', ready: false, added: '2026-10-16T16:07' },
+  { dir: 'starward-drift', title: 'Starward Drift', icon: '🚀', style: 'Ship crew management with pause', color: '#48cae4', ready: true, added: '2026-10-16T16:07' },
   { dir: 'spin-lord', title: 'Spin Lord', icon: '🎰', style: 'Slot-machine deck builder', color: '#ffbe0b', ready: true, added: '2026-10-16T16:21' },
   { dir: 'conga-quest', title: 'Conga Quest', icon: '🐍', style: 'Snake-style party crawler', color: '#8338ec', ready: false, added: '2026-10-16T16:21' },
   { dir: 'cursed-fairway', title: 'Cursed Fairway', icon: '⛳', style: 'Golf roguelite', color: '#38b000', ready: false, added: '2026-10-16T16:21' },
