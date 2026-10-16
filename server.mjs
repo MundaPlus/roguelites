@@ -47,7 +47,7 @@ const GAMES = [
   { dir: 'lane-push', title: 'Lane Push', icon: '🏹', style: 'Real-time lane attack', color: '#3a86ff', ready: true, added: '2026-10-16T16:39' },
   { dir: 'trade-winds', title: 'Trade Winds', icon: '⛵', style: 'Merchant trading', color: '#00b4d8', ready: true, added: '2026-10-16T16:39' },
   { dir: 'brick-rogue', title: 'Brick Rogue', icon: '🏓', style: 'Brick breaker', color: '#e76f51', ready: true, added: '2026-10-16T16:39' },
-  { dir: 'solitaire-siege', title: 'Solitaire Siege', icon: '🂠', style: 'Solitaire card combat', color: '#9d0208', ready: false, added: '2026-10-16T16:39' },
+  { dir: 'solitaire-siege', title: 'Solitaire Siege', icon: '🂠', style: 'Solitaire card combat', color: '#9d0208', ready: true, added: '2026-10-16T16:39' },
   { dir: 'wild-camp', title: 'Wild Camp', icon: '🏕️', style: 'Survival crafting', color: '#606c38', ready: false, added: '2026-10-16T16:39' },
   { dir: 'street-brawl', title: 'Street Brawl', icon: '👊', style: 'Side-scrolling beat em up', color: '#d62828', ready: false, added: '2026-10-16T16:39' },
   { dir: 'duel-dojo', title: 'Duel Dojo', icon: '🥋', style: '1v1 fighting', color: '#f77f00', ready: false, added: '2026-10-16T16:39' },
