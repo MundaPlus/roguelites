@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Silent Contract as playable game number 21 and marked it ready in the launcher (`silent-contract/`, `server.mjs`, `README.md`) — see `silent-contract/CHANGELOG.md`.
 - Built Block Siege as playable game number 20 and marked it ready in the launcher (`block-siege/`, `server.mjs`, `README.md`) — see `block-siege/CHANGELOG.md`.
 - Built Dome Digger as playable game number 19 and marked it ready in the launcher (`dome-digger/`, `server.mjs`, `README.md`) — see `dome-digger/CHANGELOG.md`.
 - Built Pack Rat as playable game number 18 and marked it ready in the launcher (`pack-rat/`, `server.mjs`, `README.md`) — see `pack-rat/CHANGELOG.md`.
