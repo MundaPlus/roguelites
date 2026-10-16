@@ -17,7 +17,12 @@
     "chain-crawl",
     "beat-delver",
     "pack-rat",
-    "starward-drift"
+    "starward-drift",
+    "spin-lord",
+    "conga-quest",
+    "cursed-fairway",
+    "dome-digger",
+    "silent-contract"
   ],
   "scripts": {
     "dev:ember": "npm run dev -w ember-swarm",
@@ -35,6 +40,11 @@
     "dev:beat": "npm run dev -w beat-delver",
     "dev:pack": "npm run dev -w pack-rat",
     "dev:star": "npm run dev -w starward-drift",
+    "dev:spin": "npm run dev -w spin-lord",
+    "dev:conga": "npm run dev -w conga-quest",
+    "dev:golf": "npm run dev -w cursed-fairway",
+    "dev:dome": "npm run dev -w dome-digger",
+    "dev:heist": "npm run dev -w silent-contract",
     "build": "npm run build --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",

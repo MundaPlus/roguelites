@@ -1,6 +1,6 @@
 # Roguelites
 
-Fifteen small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
+Twenty small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
 
 | Folder | Game | Play style | Status |
 |---|---|---|---|
@@ -19,6 +19,11 @@ Fifteen small web roguelite games. Each game has a different play style. All gam
 | `beat-delver/` | Beat Delver | Rhythm dungeon crawler (like Crypt of the NecroDancer) | Design only |
 | `pack-rat/` | Pack Rat | Backpack-builder auto-battler (like Backpack Hero / Backpack Battles) | Design only |
 | `starward-drift/` | Starward Drift | Ship crew management with pause (like FTL) | Design only |
+| `spin-lord/` | Spin Lord | Slot-machine deck builder (like Luck be a Landlord) | Design only |
+| `conga-quest/` | Conga Quest | Snake-style party crawler (like Nimble Quest) | Design only |
+| `cursed-fairway/` | Cursed Fairway | Golf roguelite (like Cursed to Golf) | Design only |
+| `dome-digger/` | Dome Digger | Mining plus wave defense (like Dome Keeper) | Design only |
+| `silent-contract/` | Silent Contract | Turn-based stealth heist (like Invisible Inc.) | Design only |
 
 ## Run
 
@@ -39,6 +44,11 @@ npm run dev:chain    # Chain Crawl
 npm run dev:beat     # Beat Delver
 npm run dev:pack     # Pack Rat
 npm run dev:star     # Starward Drift
+npm run dev:spin     # Spin Lord
+npm run dev:conga    # Conga Quest
+npm run dev:golf     # Cursed Fairway
+npm run dev:dome     # Dome Digger
+npm run dev:heist    # Silent Contract
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```
