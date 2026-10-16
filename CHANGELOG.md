@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Beat Delver as playable game number 13 and marked it ready in the launcher (`beat-delver/`, `server.mjs`, `README.md`) — see `beat-delver/CHANGELOG.md`.
 - Built Cave Diver as playable game number 12 and marked it ready in the launcher (`cave-diver/`, `server.mjs`, `README.md`) — see `cave-diver/CHANGELOG.md`.
 - Built Word Smith as playable game number 11 and marked it ready in the launcher (`word-smith/`, `server.mjs`, `README.md`) — see `word-smith/CHANGELOG.md`.
 - Built Chain Crawl as playable game number 10 and marked it ready in the launcher (`chain-crawl/`, `server.mjs`, `README.md`) — see `chain-crawl/CHANGELOG.md`.
