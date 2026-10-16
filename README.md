@@ -41,7 +41,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `trade-winds/` | Trade Winds | Merchant trading (like Taipan / Merchant of the Seas) | Playable |
 | `brick-rogue/` | Brick Rogue | Brick breaker (like Breakout / Arkanoid roguelites) | Playable |
 | `solitaire-siege/` | Solitaire Siege | Solitaire card combat (like Solitairica) | Playable |
-| `wild-camp/` | Wild Camp | Survival crafting (like Don't Starve) | Design only |
+| `wild-camp/` | Wild Camp | Survival crafting (like Don't Starve) | Playable |
 | `street-brawl/` | Street Brawl | Side-scrolling beat em up (like Streets of Rage / River City roguelites) | Playable |
 | `duel-dojo/` | Duel Dojo | 1v1 fighting (like Street Fighter-style roguelites) | Playable |
 | `drift-rocks/` | Drift Rocks | Inertia space shooter (like Asteroids roguelites) | Playable |

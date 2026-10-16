@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Wild Camp as playable game number 41 and marked it ready in the launcher (`wild-camp/`, `server.mjs`, `README.md`) — see `wild-camp/CHANGELOG.md`.
 - Built Street Brawl as playable game number 40 and marked it ready in the launcher (`street-brawl/`, `server.mjs`, `README.md`) — see `street-brawl/CHANGELOG.md`.
 - Built Duel Dojo as playable game number 39 and marked it ready in the launcher (`duel-dojo/`, `server.mjs`, `README.md`) — see `duel-dojo/CHANGELOG.md`.
 - Built Drift Rocks as playable game number 38 and marked it ready in the launcher (`drift-rocks/`, `server.mjs`, `README.md`) — see `drift-rocks/CHANGELOG.md`.
