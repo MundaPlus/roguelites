@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-16
+- Built Critter Clash as playable game number 27 and marked it ready in the launcher (`critter-clash/`, `server.mjs`, `README.md`) — see `critter-clash/CHANGELOG.md`.
 - Built Sweep Saga as playable game number 26 and marked it ready in the launcher (`sweep-saga/`, `server.mjs`, `README.md`) — see `sweep-saga/CHANGELOG.md`.
 - Built Brew Rogue as playable game number 25 and marked it ready in the launcher (`brew-rogue/`, `server.mjs`, `README.md`) — see `brew-rogue/CHANGELOG.md`.
 - Built Dust Trail as playable game number 24 and marked it ready in the launcher (`dust-trail/`, `server.mjs`, `README.md`) — see `dust-trail/CHANGELOG.md`.
