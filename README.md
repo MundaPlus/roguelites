@@ -1,6 +1,6 @@
 # Roguelites
 
-Thirty small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
+Fifty small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
 
 | Folder | Game | Play style | Status |
 |---|---|---|---|
@@ -34,6 +34,26 @@ Thirty small web roguelite games. Each game has a different play style. All game
 | `critter-clash/` | Critter Clash | Team auto-battler (like Super Auto Pets) | Design only |
 | `storm-haven/` | Storm Haven | Settlement builder roguelite (like Against the Storm) | Design only |
 | `key-mage/` | Key Mage | Typing roguelite (like Nanotale / Epistory) | Design only |
+| `grid-crawler/` | Grid Crawler | Classic turn-based roguelike (like Brogue / Dungeon Crawl Stone Soup) | Design only |
+| `bullet-bloom/` | Bullet Bloom | Vertical bullet-hell shooter (like Touhou-style roguelites / Steredenn) | Design only |
+| `tower-topple/` | Tower Topple | Physics stacking (like Tricky Towers) | Design only |
+| `lane-push/` | Lane Push | Real-time lane attack (like Clash Royale / reverse Plants vs. Zombies) | Design only |
+| `trade-winds/` | Trade Winds | Merchant trading (like Taipan / Merchant of the Seas) | Design only |
+| `brick-rogue/` | Brick Rogue | Brick breaker (like Breakout / Arkanoid roguelites) | Design only |
+| `solitaire-siege/` | Solitaire Siege | Solitaire card combat (like Solitairica) | Design only |
+| `wild-camp/` | Wild Camp | Survival crafting (like Don't Starve) | Design only |
+| `street-brawl/` | Street Brawl | Side-scrolling beat em up (like Streets of Rage / River City roguelites) | Design only |
+| `duel-dojo/` | Duel Dojo | 1v1 fighting (like Street Fighter-style roguelites) | Design only |
+| `drift-rocks/` | Drift Rocks | Inertia space shooter (like Asteroids roguelites) | Design only |
+| `herd-path/` | Herd Path | Unit guiding puzzle (like Lemmings) | Design only |
+| `idle-empire/` | Idle Empire | Incremental idle (like Cookie Clicker / Antimatter Dimensions with prestige) | Design only |
+| `crate-crypt/` | Crate Crypt | Push-block puzzle (like Sokoban roguelites) | Design only |
+| `pixel-oracle/` | Pixel Oracle | Nonogram logic (like Picross roguelites) | Design only |
+| `dash-lanes/` | Dash Lanes | Endless lane runner (like Subway Surfers with roguelite upgrades) | Design only |
+| `ink-bridge/` | Ink Bridge | Line-drawing physics puzzle (like Brain It On / Crayon Physics) | Design only |
+| `orbit-sling/` | Orbit Sling | Gravity slingshot (like Angry Birds in space / Gravitee) | Design only |
+| `time-bar-tales/` | Time Bar Tales | Turn-based JRPG party (like Final Fantasy ATB roguelites) | Design only |
+| `code-breaker/` | Code Breaker | Deduction puzzle (like Mastermind / Wordle roguelites) | Design only |
 
 ## Run
 
@@ -69,6 +89,26 @@ npm run dev:tame     # Pocket Wilds
 npm run dev:critter  # Critter Clash
 npm run dev:haven    # Storm Haven
 npm run dev:type     # Key Mage
+npm run dev:crawl    # Grid Crawler
+npm run dev:bullet   # Bullet Bloom
+npm run dev:topple   # Tower Topple
+npm run dev:lane     # Lane Push
+npm run dev:trade    # Trade Winds
+npm run dev:brick    # Brick Rogue
+npm run dev:soli     # Solitaire Siege
+npm run dev:craft    # Wild Camp
+npm run dev:brawl    # Street Brawl
+npm run dev:duel     # Duel Dojo
+npm run dev:rocks    # Drift Rocks
+npm run dev:herd     # Herd Path
+npm run dev:idle     # Idle Empire
+npm run dev:crate    # Crate Crypt
+npm run dev:pixel    # Pixel Oracle
+npm run dev:dash     # Dash Lanes
+npm run dev:ink      # Ink Bridge
+npm run dev:orbit    # Orbit Sling
+npm run dev:atb      # Time Bar Tales
+npm run dev:code     # Code Breaker
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```
