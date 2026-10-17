@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Built Rumor Mill as playable game number 52 and marked it ready in the launcher (`rumor-mill/`, `server.mjs`, `README.md`) — see `rumor-mill/CHANGELOG.md`.
 - Built Dungeon Director as playable game number 51 and marked it ready in the launcher (`dungeon-director/`, `server.mjs`, `README.md`) — see `dungeon-director/CHANGELOG.md`.
 - Replaced the copied High Card stylesheet and page in the 5 new-concept placeholders with a small placeholder stylesheet and each game's own icon (`<game>/src/style.css`, `<game>/index.html`) — the template copy brought 1,547 lines of unused game CSS.
 - Added 5 new-concept games as placeholders with design READMEs: Forget-Me-Not, Rumor Mill, Dungeon Director, Split Ages, Glyph Tongue (`<game>/`, `package.json`, `server.mjs`, `README.md`) — roguelites with new core mechanics, not known genres.
