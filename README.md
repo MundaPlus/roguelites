@@ -65,7 +65,7 @@ Fifty-five small web roguelite games in two groups. The 50 classics each use a k
 | `rumor-mill/` | Rumor Mill | Rumors that change as they spread | Playable |
 | `dungeon-director/` | Dungeon Director | Keep the hero in the fun zone | Playable |
 | `split-ages/` | Split Ages | Two linked timelines | Design only |
-| `glyph-tongue/` | Glyph Tongue | Learn new magic rules every run | Design only |
+| `glyph-tongue/` | Glyph Tongue | Learn new magic rules every run | Playable |
 
 ## Run
 

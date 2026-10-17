@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Built Glyph Tongue as playable game number 54 and marked it ready in the launcher (`glyph-tongue/`, `server.mjs`, `README.md`) — see `glyph-tongue/CHANGELOG.md`.
 - Built Forget-Me-Not as playable game number 53 and marked it ready in the launcher (`forget-me-not/`, `server.mjs`, `README.md`) — see `forget-me-not/CHANGELOG.md`.
 - Built Rumor Mill as playable game number 52 and marked it ready in the launcher (`rumor-mill/`, `server.mjs`, `README.md`) — see `rumor-mill/CHANGELOG.md`.
 - Built Dungeon Director as playable game number 51 and marked it ready in the launcher (`dungeon-director/`, `server.mjs`, `README.md`) — see `dungeon-director/CHANGELOG.md`.

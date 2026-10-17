@@ -65,7 +65,7 @@ const GAMES = [
   { dir: 'rumor-mill', title: 'Rumor Mill', icon: '🗣️', style: 'Rumors that change as they spread', color: '#e09f3e', ready: true, added: '2026-10-17T12:00', tab: 'concept' },
   { dir: 'dungeon-director', title: 'Dungeon Director', icon: '🎬', style: 'Keep the hero in the fun zone', color: '#43aa8b', ready: true, added: '2026-10-17T12:00', tab: 'concept' },
   { dir: 'split-ages', title: 'Split Ages', icon: '🌳', style: 'Two linked timelines', color: '#76c893', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
-  { dir: 'glyph-tongue', title: 'Glyph Tongue', icon: '📜', style: 'Learn new magic rules every run', color: '#9b5de5', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
+  { dir: 'glyph-tongue', title: 'Glyph Tongue', icon: '📜', style: 'Learn new magic rules every run', color: '#9b5de5', ready: true, added: '2026-10-17T12:00', tab: 'concept' },
 ];
 
 const TYPES = {
