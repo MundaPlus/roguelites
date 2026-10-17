@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Built Crate Crypt as playable game number 49 and marked it ready in the launcher (`crate-crypt/`, `server.mjs`, `README.md`) — see `crate-crypt/CHANGELOG.md`.
 - Built Time Bar Tales as playable game number 48 and marked it ready in the launcher (`time-bar-tales/`, `server.mjs`, `README.md`) — see `time-bar-tales/CHANGELOG.md`.
 - Built Code Breaker as playable game number 47 and marked it ready in the launcher (`code-breaker/`, `server.mjs`, `README.md`) — see `code-breaker/CHANGELOG.md`.
 - Built Ink Bridge as playable game number 46 and marked it ready in the launcher (`ink-bridge/`, `server.mjs`, `README.md`) — see `ink-bridge/CHANGELOG.md`.
