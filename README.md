@@ -48,7 +48,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `herd-path/` | Herd Path | Unit guiding puzzle (like Lemmings) | Playable |
 | `idle-empire/` | Idle Empire | Incremental idle (like Cookie Clicker / Antimatter Dimensions with prestige) | Playable |
 | `crate-crypt/` | Crate Crypt | Push-block puzzle (like Sokoban roguelites) | Design only |
-| `pixel-oracle/` | Pixel Oracle | Nonogram logic (like Picross roguelites) | Design only |
+| `pixel-oracle/` | Pixel Oracle | Nonogram logic (like Picross roguelites) | Playable |
 | `dash-lanes/` | Dash Lanes | Endless lane runner (like Subway Surfers with roguelite upgrades) | Design only |
 | `ink-bridge/` | Ink Bridge | Line-drawing physics puzzle (like Brain It On / Crayon Physics) | Design only |
 | `orbit-sling/` | Orbit Sling | Gravity slingshot (like Angry Birds in space / Gravitee) | Design only |

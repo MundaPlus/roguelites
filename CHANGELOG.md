@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-17
+- Built Pixel Oracle as playable game number 44 and marked it ready in the launcher (`pixel-oracle/`, `server.mjs`, `README.md`) — see `pixel-oracle/CHANGELOG.md`.
+
 ## 2026-10-16
 - Built Herd Path as playable game number 43 and marked it ready in the launcher (`herd-path/`, `server.mjs`, `README.md`) — see `herd-path/CHANGELOG.md`.
 - Built Idle Empire as playable game number 42 and marked it ready in the launcher (`idle-empire/`, `server.mjs`, `README.md`) — see `idle-empire/CHANGELOG.md`.

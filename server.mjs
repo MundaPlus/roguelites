@@ -55,7 +55,7 @@ const GAMES = [
   { dir: 'herd-path', title: 'Herd Path', icon: '🐑', style: 'Unit guiding puzzle', color: '#90e0ef', ready: true, added: '2026-10-16T16:39' },
   { dir: 'idle-empire', title: 'Idle Empire', icon: '🏛️', style: 'Incremental idle', color: '#ffd60a', ready: true, added: '2026-10-16T16:39' },
   { dir: 'crate-crypt', title: 'Crate Crypt', icon: '📦', style: 'Push-block puzzle', color: '#bb9457', ready: false, added: '2026-10-16T16:39' },
-  { dir: 'pixel-oracle', title: 'Pixel Oracle', icon: '🔳', style: 'Nonogram logic', color: '#7678ed', ready: false, added: '2026-10-16T16:39' },
+  { dir: 'pixel-oracle', title: 'Pixel Oracle', icon: '🔳', style: 'Nonogram logic', color: '#7678ed', ready: true, added: '2026-10-16T16:39' },
   { dir: 'dash-lanes', title: 'Dash Lanes', icon: '🏃', style: 'Endless lane runner', color: '#80ed99', ready: false, added: '2026-10-16T16:39' },
   { dir: 'ink-bridge', title: 'Ink Bridge', icon: '✏️', style: 'Line-drawing physics puzzle', color: '#ff5d8f', ready: false, added: '2026-10-16T16:39' },
   { dir: 'orbit-sling', title: 'Orbit Sling', icon: '🪐', style: 'Gravity slingshot', color: '#4361ee', ready: false, added: '2026-10-16T16:39' },
