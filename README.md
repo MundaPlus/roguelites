@@ -53,7 +53,7 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `ink-bridge/` | Ink Bridge | Line-drawing physics puzzle (like Brain It On / Crayon Physics) | Playable |
 | `orbit-sling/` | Orbit Sling | Gravity slingshot (like Angry Birds in space / Gravitee) | Playable |
 | `time-bar-tales/` | Time Bar Tales | Turn-based JRPG party (like Final Fantasy ATB roguelites) | Design only |
-| `code-breaker/` | Code Breaker | Deduction puzzle (like Mastermind / Wordle roguelites) | Design only |
+| `code-breaker/` | Code Breaker | Deduction puzzle (like Mastermind / Wordle roguelites) | Playable |
 
 ## Run
 
