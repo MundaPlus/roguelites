@@ -66,7 +66,7 @@ const GAMES = [
   { dir: 'dungeon-director', title: 'Dungeon Director', icon: '🎬', style: 'Keep the hero in the fun zone', color: '#43aa8b', ready: true, added: '2026-10-17T12:00', tab: 'concept' },
   { dir: 'split-ages', title: 'Split Ages', icon: '🌳', style: 'Two linked timelines', color: '#76c893', ready: true, added: '2026-10-17T12:00', tab: 'concept' },
   { dir: 'glyph-tongue', title: 'Glyph Tongue', icon: '📜', style: 'Learn new magic rules every run', color: '#9b5de5', ready: true, added: '2026-10-17T12:00', tab: 'concept' },
-  { dir: 'clause-duel', title: 'Clause Duel', icon: '📝', style: 'Draft the rules before the fight', color: '#f4a259', ready: false, added: '2026-10-17T18:00', tab: 'concept' },
+  { dir: 'clause-duel', title: 'Clause Duel', icon: '📝', style: 'Draft the rules before the fight', color: '#f4a259', ready: true, added: '2026-10-17T18:00', tab: 'concept' },
   { dir: 'lamplight', title: 'Lamplight', icon: '🕯️', style: 'Move the lights, shadows fight', color: '#ffd166', ready: false, added: '2026-10-17T18:00', tab: 'concept' },
   { dir: 'life-wars', title: 'Life Wars', icon: '🧫', style: 'Fight with cellular automata', color: '#06d6a0', ready: false, added: '2026-10-17T18:00', tab: 'concept' },
   { dir: 'poker-face', title: 'Poker Face', icon: '🎭', style: 'Opponents learn how you bluff', color: '#ef476f', ready: false, added: '2026-10-17T18:00', tab: 'concept' },

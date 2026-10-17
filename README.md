@@ -66,7 +66,7 @@ Sixty small web roguelite games in two groups. The 50 classics each use a known 
 | `dungeon-director/` | Dungeon Director | Keep the hero in the fun zone | Playable |
 | `split-ages/` | Split Ages | Two linked timelines | Playable |
 | `glyph-tongue/` | Glyph Tongue | Learn new magic rules every run | Playable |
-| `clause-duel/` | Clause Duel | Draft the rules before the fight | Design only |
+| `clause-duel/` | Clause Duel | Draft the rules before the fight | Playable |
 | `lamplight/` | Lamplight | Move the lights, shadows fight | Design only |
 | `life-wars/` | Life Wars | Fight with cellular automata | Design only |
 | `poker-face/` | Poker Face | Opponents learn how you bluff | Design only |
