@@ -59,7 +59,7 @@ const GAMES = [
   { dir: 'dash-lanes', title: 'Dash Lanes', icon: '🏃', style: 'Endless lane runner', color: '#80ed99', ready: false, added: '2026-10-16T16:39' },
   { dir: 'ink-bridge', title: 'Ink Bridge', icon: '✏️', style: 'Line-drawing physics puzzle', color: '#ff5d8f', ready: true, added: '2026-10-16T16:39' },
   { dir: 'orbit-sling', title: 'Orbit Sling', icon: '🪐', style: 'Gravity slingshot', color: '#4361ee', ready: true, added: '2026-10-16T16:39' },
-  { dir: 'time-bar-tales', title: 'Time Bar Tales', icon: '⏳', style: 'Turn-based JRPG party', color: '#c9184a', ready: false, added: '2026-10-16T16:39' },
+  { dir: 'time-bar-tales', title: 'Time Bar Tales', icon: '⏳', style: 'Turn-based JRPG party', color: '#c9184a', ready: true, added: '2026-10-16T16:39' },
   { dir: 'code-breaker', title: 'Code Breaker', icon: '🔐', style: 'Deduction puzzle', color: '#52b788', ready: true, added: '2026-10-16T16:39' },
 ];
 
