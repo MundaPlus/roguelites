@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Built Orbit Sling as playable game number 45 and marked it ready in the launcher (`orbit-sling/`, `server.mjs`, `README.md`) — see `orbit-sling/CHANGELOG.md`.
 - Built Pixel Oracle as playable game number 44 and marked it ready in the launcher (`pixel-oracle/`, `server.mjs`, `README.md`) — see `pixel-oracle/CHANGELOG.md`.
 
 ## 2026-10-16
