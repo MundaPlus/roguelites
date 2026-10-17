@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Replaced the copied High Card stylesheet and page in the 5 new-concept placeholders with a small placeholder stylesheet and each game's own icon (`<game>/src/style.css`, `<game>/index.html`) — the template copy brought 1,547 lines of unused game CSS.
 - Added 5 new-concept games as placeholders with design READMEs: Forget-Me-Not, Rumor Mill, Dungeon Director, Split Ages, Glyph Tongue (`<game>/`, `package.json`, `server.mjs`, `README.md`) — roguelites with new core mechanics, not known genres.
 - Split the launcher into two tabs, Classics and New concepts, and saved the last tab in the browser (`server.mjs`, `README.md`) — keeps the new concepts apart from the 50 classic play styles.
 - Built Dash Lanes as playable game number 50 and marked it ready in the launcher (`dash-lanes/`, `server.mjs`, `README.md`) — see `dash-lanes/CHANGELOG.md`.
