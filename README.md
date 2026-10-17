@@ -68,7 +68,7 @@ Sixty small web roguelite games in two groups. The 50 classics each use a known 
 | `glyph-tongue/` | Glyph Tongue | Learn new magic rules every run | Playable |
 | `clause-duel/` | Clause Duel | Draft the rules before the fight | Playable |
 | `lamplight/` | Lamplight | Move the lights, shadows fight | Design only |
-| `life-wars/` | Life Wars | Fight with cellular automata | Design only |
+| `life-wars/` | Life Wars | Fight with cellular automata | Playable |
 | `poker-face/` | Poker Face | Opponents learn how you bluff | Design only |
 | `tip-the-scales/` | Tip the Scales | Tactics on a balance beam | Design only |
 
