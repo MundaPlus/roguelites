@@ -70,7 +70,7 @@ Sixty small web roguelite games in two groups. The 50 classics each use a known 
 | `lamplight/` | Lamplight | Move the lights, shadows fight | Design only |
 | `life-wars/` | Life Wars | Fight with cellular automata | Playable |
 | `poker-face/` | Poker Face | Opponents learn how you bluff | Playable |
-| `tip-the-scales/` | Tip the Scales | Tactics on a balance beam | Design only |
+| `tip-the-scales/` | Tip the Scales | Tactics on a balance beam | Playable |
 
 ## Run
 
