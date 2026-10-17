@@ -1,6 +1,8 @@
 # Changelog
 
 ## 2026-10-17
+- Added 5 new-concept games as placeholders with design READMEs: Forget-Me-Not, Rumor Mill, Dungeon Director, Split Ages, Glyph Tongue (`<game>/`, `package.json`, `server.mjs`, `README.md`) — roguelites with new core mechanics, not known genres.
+- Split the launcher into two tabs, Classics and New concepts, and saved the last tab in the browser (`server.mjs`, `README.md`) — keeps the new concepts apart from the 50 classic play styles.
 - Built Dash Lanes as playable game number 50 and marked it ready in the launcher (`dash-lanes/`, `server.mjs`, `README.md`) — see `dash-lanes/CHANGELOG.md`.
 - Built Crate Crypt as playable game number 49 and marked it ready in the launcher (`crate-crypt/`, `server.mjs`, `README.md`) — see `crate-crypt/CHANGELOG.md`.
 - Built Time Bar Tales as playable game number 48 and marked it ready in the launcher (`time-bar-tales/`, `server.mjs`, `README.md`) — see `time-bar-tales/CHANGELOG.md`.

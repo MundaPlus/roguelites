@@ -1,6 +1,8 @@
 # Roguelites
 
-Fifty small web roguelite games. Each game has a different play style. All games use Vite and TypeScript in one npm workspace.
+Fifty-five small web roguelite games in two groups. The 50 classics each use a known roguelite play style. The 5 new concepts each try a new mechanic. All games use Vite and TypeScript in one npm workspace.
+
+## Classics
 
 | Folder | Game | Play style | Status |
 |---|---|---|---|
@@ -54,6 +56,16 @@ Fifty small web roguelite games. Each game has a different play style. All games
 | `orbit-sling/` | Orbit Sling | Gravity slingshot (like Angry Birds in space / Gravitee) | Playable |
 | `time-bar-tales/` | Time Bar Tales | Turn-based JRPG party (like Final Fantasy ATB roguelites) | Playable |
 | `code-breaker/` | Code Breaker | Deduction puzzle (like Mastermind / Wordle roguelites) | Playable |
+
+## New concepts
+
+| Folder | Game | Core mechanic | Status |
+|---|---|---|---|
+| `forget-me-not/` | Forget-Me-Not | Forgotten skills become enemies | Design only |
+| `rumor-mill/` | Rumor Mill | Rumors that change as they spread | Design only |
+| `dungeon-director/` | Dungeon Director | Keep the hero in the fun zone | Design only |
+| `split-ages/` | Split Ages | Two linked timelines | Design only |
+| `glyph-tongue/` | Glyph Tongue | Learn new magic rules every run | Design only |
 
 ## Run
 
@@ -109,6 +121,11 @@ npm run dev:ink      # Ink Bridge
 npm run dev:orbit    # Orbit Sling
 npm run dev:atb      # Time Bar Tales
 npm run dev:code     # Code Breaker
+npm run dev:forget   # Forget-Me-Not
+npm run dev:rumor    # Rumor Mill
+npm run dev:director # Dungeon Director
+npm run dev:ages     # Split Ages
+npm run dev:glyph    # Glyph Tongue
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```
@@ -122,6 +139,7 @@ npm start            # serve only, without a new build
 
 Open `http://<this-machine-ip>:8090/` on any device on the LAN. The server prints its addresses at start. The launcher page links to all games.
 
+- The launcher has two tabs: **Classics** and **New concepts**. The browser saves the last tab.
 - The launcher shows 3 rows of cards per page. Use the page buttons, the `←` `→` keys or a swipe to change pages.
 - Click the ☆ on a card to mark a favorite. Sort by **★ Favorites** (favorites, then playable games, then the newest), **🕒 Newest** or **A–Z**.
 - Favorites and the sort choice are saved in the browser of each device.

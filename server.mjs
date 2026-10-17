@@ -61,6 +61,11 @@ const GAMES = [
   { dir: 'orbit-sling', title: 'Orbit Sling', icon: '🪐', style: 'Gravity slingshot', color: '#4361ee', ready: true, added: '2026-10-16T16:39' },
   { dir: 'time-bar-tales', title: 'Time Bar Tales', icon: '⏳', style: 'Turn-based JRPG party', color: '#c9184a', ready: true, added: '2026-10-16T16:39' },
   { dir: 'code-breaker', title: 'Code Breaker', icon: '🔐', style: 'Deduction puzzle', color: '#52b788', ready: true, added: '2026-10-16T16:39' },
+  { dir: 'forget-me-not', title: 'Forget-Me-Not', icon: '🧠', style: 'Forgotten skills become enemies', color: '#b5179e', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
+  { dir: 'rumor-mill', title: 'Rumor Mill', icon: '🗣️', style: 'Rumors that change as they spread', color: '#e09f3e', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
+  { dir: 'dungeon-director', title: 'Dungeon Director', icon: '🎬', style: 'Keep the hero in the fun zone', color: '#43aa8b', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
+  { dir: 'split-ages', title: 'Split Ages', icon: '🌳', style: 'Two linked timelines', color: '#76c893', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
+  { dir: 'glyph-tongue', title: 'Glyph Tongue', icon: '📜', style: 'Learn new magic rules every run', color: '#9b5de5', ready: false, added: '2026-10-17T12:00', tab: 'concept' },
 ];
 
 const TYPES = {
@@ -83,6 +88,7 @@ function launcher() {
   // The page renders the cards itself: sort, favorites and pages live in the browser.
   const data = JSON.stringify(GAMES.map((g, i) => ({ ...g, order: i })));
   const playable = GAMES.filter((g) => g.ready).length;
+  const concepts = GAMES.filter((g) => g.tab === 'concept').length;
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Roguelites</title>
@@ -94,6 +100,12 @@ function launcher() {
   h1 { text-align: center; font-size: clamp(2rem, 6vw, 3rem); letter-spacing: .06em; margin: 0; }
   .sub { text-align: center; color: var(--muted); margin: 4px 0 18px; }
   .bar { display: flex; justify-content: center; margin-bottom: 16px; }
+  .tabs { display: flex; justify-content: center; gap: 4px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+  .tabs button { font: inherit; font-size: 1.05rem; color: var(--muted); background: transparent; border: 0;
+    border-bottom: 3px solid transparent; padding: 8px 16px; cursor: pointer; }
+  .tabs button:hover { color: #eee; }
+  .tabs button[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 700; }
+  .tabs .n { font-size: .8rem; opacity: .7; }
   .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
   .seg button { font: inherit; color: inherit; background: transparent; border: 0; padding: 8px 14px; cursor: pointer; }
   .seg button + button { border-left: 1px solid var(--line); }
@@ -123,6 +135,9 @@ function launcher() {
 <body><main>
   <h1>ROGUELITES</h1>
   <p class="sub">${GAMES.length} games · ${playable} playable</p>
+  <div class="tabs" role="tablist" aria-label="Collection">
+    <button role="tab" data-tab="classic">🏛️ Classics <span class="n">${GAMES.length - concepts}</span></button><button role="tab" data-tab="concept">✨ New concepts <span class="n">${concepts}</span></button>
+  </div>
   <div class="bar"><div class="seg" role="group" aria-label="Sort">
     <button data-sort="fav">★ Favorites</button><button data-sort="date">🕒 Newest</button><button data-sort="alpha">A–Z</button>
   </div></div>
@@ -138,6 +153,7 @@ const store = {
 };
 let favs = new Set(store.get('roguelites.favs', []));
 let sort = store.get('roguelites.sort', 'fav');
+let tab = store.get('roguelites.tab', 'classic');
 let page = 0;
 const grid = document.getElementById('grid');
 const pager = document.getElementById('pager');
@@ -145,7 +161,7 @@ const fmt = new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric' 
 const newest = (a, b) => b.added.localeCompare(a.added) || b.order - a.order;
 
 function sorted() {
-  const list = [...GAMES];
+  const list = GAMES.filter((g) => (g.tab ?? 'classic') === tab);
   if (sort === 'alpha') return list.sort((a, b) => a.title.localeCompare(b.title));
   if (sort === 'date') return list.sort(newest);
   // Favorites first, then playable games, then the newest placeholders.
@@ -173,6 +189,7 @@ function render() {
   const pages = Math.max(1, Math.ceil(list.length / size));
   page = Math.min(Math.max(0, page), pages - 1);
   grid.innerHTML = list.slice(page * size, page * size + size).map(card).join('');
+  for (const b of document.querySelectorAll('[data-tab]')) b.setAttribute('aria-selected', String(b.dataset.tab === tab));
   for (const b of document.querySelectorAll('[data-sort]')) b.setAttribute('aria-pressed', String(b.dataset.sort === sort));
   let nav = '<button data-page="' + (page - 1) + '" ' + (page === 0 ? 'disabled' : '') + ' aria-label="Previous page">‹</button>';
   for (let i = 0; i < pages; i++) nav += '<button data-page="' + i + '"' + (i === page ? ' aria-current="page"' : '') + '>' + (i + 1) + '</button>';
@@ -186,6 +203,13 @@ document.addEventListener('click', (e) => {
     const id = fav.dataset.fav;
     if (favs.has(id)) favs.delete(id); else favs.add(id);
     store.set('roguelites.favs', [...favs]);
+    return render();
+  }
+  const t = e.target.closest('[data-tab]');
+  if (t) {
+    tab = t.dataset.tab;
+    store.set('roguelites.tab', tab);
+    page = 0;
     return render();
   }
   const s = e.target.closest('[data-sort]');

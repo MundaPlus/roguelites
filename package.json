@@ -52,7 +52,12 @@
     "ink-bridge",
     "orbit-sling",
     "time-bar-tales",
-    "code-breaker"
+    "code-breaker",
+    "forget-me-not",
+    "rumor-mill",
+    "dungeon-director",
+    "split-ages",
+    "glyph-tongue"
   ],
   "scripts": {
     "dev:ember": "npm run dev -w ember-swarm",
@@ -105,6 +110,11 @@
     "dev:orbit": "npm run dev -w orbit-sling",
     "dev:atb": "npm run dev -w time-bar-tales",
     "dev:code": "npm run dev -w code-breaker",
+    "dev:forget": "npm run dev -w forget-me-not",
+    "dev:rumor": "npm run dev -w rumor-mill",
+    "dev:director": "npm run dev -w dungeon-director",
+    "dev:ages": "npm run dev -w split-ages",
+    "dev:glyph": "npm run dev -w glyph-tongue",
     "build": "npm run build --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",
