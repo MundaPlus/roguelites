@@ -61,7 +61,7 @@ Fifty-five small web roguelite games in two groups. The 50 classics each use a k
 
 | Folder | Game | Core mechanic | Status |
 |---|---|---|---|
-| `forget-me-not/` | Forget-Me-Not | Forgotten skills become enemies | Design only |
+| `forget-me-not/` | Forget-Me-Not | Forgotten skills become enemies | Playable |
 | `rumor-mill/` | Rumor Mill | Rumors that change as they spread | Playable |
 | `dungeon-director/` | Dungeon Director | Keep the hero in the fun zone | Playable |
 | `split-ages/` | Split Ages | Two linked timelines | Design only |
