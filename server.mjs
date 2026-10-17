@@ -69,7 +69,7 @@ const GAMES = [
   { dir: 'clause-duel', title: 'Clause Duel', icon: '📝', style: 'Draft the rules before the fight', color: '#f4a259', ready: true, added: '2026-10-17T18:00', tab: 'concept' },
   { dir: 'lamplight', title: 'Lamplight', icon: '🕯️', style: 'Move the lights, shadows fight', color: '#ffd166', ready: false, added: '2026-10-17T18:00', tab: 'concept' },
   { dir: 'life-wars', title: 'Life Wars', icon: '🧫', style: 'Fight with cellular automata', color: '#06d6a0', ready: true, added: '2026-10-17T18:00', tab: 'concept' },
-  { dir: 'poker-face', title: 'Poker Face', icon: '🎭', style: 'Opponents learn how you bluff', color: '#ef476f', ready: false, added: '2026-10-17T18:00', tab: 'concept' },
+  { dir: 'poker-face', title: 'Poker Face', icon: '🎭', style: 'Opponents learn how you bluff', color: '#ef476f', ready: true, added: '2026-10-17T18:00', tab: 'concept' },
   { dir: 'tip-the-scales', title: 'Tip the Scales', icon: '⚖️', style: 'Tactics on a balance beam', color: '#118ab2', ready: false, added: '2026-10-17T18:00', tab: 'concept' },
 ];
 

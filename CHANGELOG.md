@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Built Poker Face as playable game number 58 and marked it ready in the launcher (`poker-face/`, `server.mjs`, `README.md`) — see `poker-face/CHANGELOG.md`.
 - Built Life Wars as playable game number 57 and marked it ready in the launcher (`life-wars/`, `server.mjs`, `README.md`) — see `life-wars/CHANGELOG.md`.
 - Built Clause Duel as playable game number 56 and marked it ready in the launcher (`clause-duel/`, `server.mjs`, `README.md`) — see `clause-duel/CHANGELOG.md`.
 - Added 5 more new-concept games as placeholders with design READMEs: Clause Duel, Lamplight, Life Wars, Poker Face, Tip the Scales (`<game>/`, `package.json`, `server.mjs`, `README.md`) — the second batch for the New concepts tab.
