@@ -1,6 +1,6 @@
 # Roguelites
 
-Fifty-five small web roguelite games in two groups. The 50 classics each use a known roguelite play style. The 5 new concepts each try a new mechanic. All games use Vite and TypeScript in one npm workspace.
+Sixty small web roguelite games in two groups. The 50 classics each use a known roguelite play style. The 10 new concepts each try a new mechanic. All games use Vite and TypeScript in one npm workspace.
 
 ## Classics
 
@@ -66,6 +66,11 @@ Fifty-five small web roguelite games in two groups. The 50 classics each use a k
 | `dungeon-director/` | Dungeon Director | Keep the hero in the fun zone | Playable |
 | `split-ages/` | Split Ages | Two linked timelines | Playable |
 | `glyph-tongue/` | Glyph Tongue | Learn new magic rules every run | Playable |
+| `clause-duel/` | Clause Duel | Draft the rules before the fight | Design only |
+| `lamplight/` | Lamplight | Move the lights, shadows fight | Design only |
+| `life-wars/` | Life Wars | Fight with cellular automata | Design only |
+| `poker-face/` | Poker Face | Opponents learn how you bluff | Design only |
+| `tip-the-scales/` | Tip the Scales | Tactics on a balance beam | Design only |
 
 ## Run
 
@@ -126,6 +131,11 @@ npm run dev:rumor    # Rumor Mill
 npm run dev:director # Dungeon Director
 npm run dev:ages     # Split Ages
 npm run dev:glyph    # Glyph Tongue
+npm run dev:clause   # Clause Duel
+npm run dev:lamp     # Lamplight
+npm run dev:life     # Life Wars
+npm run dev:bluff    # Poker Face
+npm run dev:scales   # Tip the Scales
 npm run typecheck    # all games
 npm run build        # all games, output in <game>/dist
 ```

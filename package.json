@@ -57,7 +57,12 @@
     "rumor-mill",
     "dungeon-director",
     "split-ages",
-    "glyph-tongue"
+    "glyph-tongue",
+    "clause-duel",
+    "lamplight",
+    "life-wars",
+    "poker-face",
+    "tip-the-scales"
   ],
   "scripts": {
     "dev:ember": "npm run dev -w ember-swarm",
@@ -115,6 +120,11 @@
     "dev:director": "npm run dev -w dungeon-director",
     "dev:ages": "npm run dev -w split-ages",
     "dev:glyph": "npm run dev -w glyph-tongue",
+    "dev:clause": "npm run dev -w clause-duel",
+    "dev:lamp": "npm run dev -w lamplight",
+    "dev:life": "npm run dev -w life-wars",
+    "dev:bluff": "npm run dev -w poker-face",
+    "dev:scales": "npm run dev -w tip-the-scales",
     "build": "npm run build --workspaces",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",

@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Added 5 more new-concept games as placeholders with design READMEs: Clause Duel, Lamplight, Life Wars, Poker Face, Tip the Scales (`<game>/`, `package.json`, `server.mjs`, `README.md`) — the second batch for the New concepts tab.
 - Built Split Ages as playable game number 55 and marked it ready in the launcher (`split-ages/`, `server.mjs`, `README.md`) — see `split-ages/CHANGELOG.md`.
 - Built Glyph Tongue as playable game number 54 and marked it ready in the launcher (`glyph-tongue/`, `server.mjs`, `README.md`) — see `glyph-tongue/CHANGELOG.md`.
 - Built Forget-Me-Not as playable game number 53 and marked it ready in the launcher (`forget-me-not/`, `server.mjs`, `README.md`) — see `forget-me-not/CHANGELOG.md`.
