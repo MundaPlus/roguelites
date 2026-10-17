@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-17
+- Built Lamplight as playable game number 60 and marked it ready in the launcher (`lamplight/`, `server.mjs`, `README.md`) — see `lamplight/CHANGELOG.md`.
 - Built Tip the Scales as playable game number 59 and marked it ready in the launcher (`tip-the-scales/`, `server.mjs`, `README.md`) — see `tip-the-scales/CHANGELOG.md`.
 - Built Poker Face as playable game number 58 and marked it ready in the launcher (`poker-face/`, `server.mjs`, `README.md`) — see `poker-face/CHANGELOG.md`.
 - Built Life Wars as playable game number 57 and marked it ready in the launcher (`life-wars/`, `server.mjs`, `README.md`) — see `life-wars/CHANGELOG.md`.
