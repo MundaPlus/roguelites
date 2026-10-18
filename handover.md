@@ -1,5 +1,7 @@
 # Handover — roguelites — 2026-10-18 08:05
 
+> **Status 2026-10-18: DONE.** All next steps are complete (on debian-celje). GitHub repo: https://github.com/MundaPlus/roguelites. Pages: https://mundaplus.github.io/roguelites/. munda.si card is live. Nothing is open.
+
 ## Goal
 
 The user said: "could you make a public repo on github in mundaplu and add it as a product in munda.si add mit licence like the other free open source repos." Then: "and host them with pages on github". And: "it is on .3 machine" (the munda.si site source is on the main machine, 192.168.31.3).

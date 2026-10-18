@@ -1,6 +1,9 @@
 # Changelog
 
 ## 2026-10-18
+- Published the repo on GitHub as public `MundaPlus/roguelites` (`main` = our `master`, plus `develop`) and turned on GitHub Pages with GitHub Actions as the source. The first deploy passed: https://mundaplus.github.io/roguelites/ — the user asked for a public repo hosted with Pages.
+- Added Roguelites to the projects list on https://munda.si (deployed, backup `index.html.bak-20261018-roguelites` on the VPS) — the user wants it listed as a free open-source product.
+- Marked the handover as done (`handover.md`) — all next steps are complete.
 - Added a static site build and a GitHub Pages workflow (`scripts/build-site.mjs`, `.github/workflows/pages.yml`, `package.json`) — the user wants the games public on GitHub Pages.
 - Made the launcher card links relative and made `server.mjs` importable without a start of the server (`server.mjs`) — the site must work under `/roguelites/`.
 - Synced `package-lock.json` with the 10 new-concept workspaces (`package-lock.json`) — `npm ci` failed on GitHub without it.
