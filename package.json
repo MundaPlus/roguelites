@@ -126,8 +126,10 @@
     "dev:bluff": "npm run dev -w poker-face",
     "dev:scales": "npm run dev -w tip-the-scales",
     "build": "npm run build --workspaces",
+    "build:site": "node scripts/build-site.mjs",
     "typecheck": "npm run typecheck --workspaces",
     "start": "node server.mjs",
     "serve": "npm run build && node server.mjs"
-  }
+  },
+  "license": "MIT"
 }

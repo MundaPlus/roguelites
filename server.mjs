@@ -4,13 +4,13 @@ import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { networkInterfaces } from 'node:os';
 import { extname, join, normalize, sep } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const PORT = Number(process.env.PORT ?? 8090);
 const HOST = process.env.HOST ?? '0.0.0.0';
 
-const GAMES = [
+export const GAMES = [
   { dir: 'ember-swarm', title: 'Ember Swarm', icon: '🔥', style: 'Auto-shooter survival', color: '#ff9f1c', ready: true, added: '2026-10-15T19:28' },
   { dir: 'deckbound-spire', title: 'Deckbound Spire', icon: '🃏', style: 'Turn-based deckbuilder', color: '#9d4edd', ready: true, added: '2026-10-15T19:28' },
   { dir: 'neon-depths', title: 'Neon Depths', icon: '🔫', style: 'Twin-stick room clearing', color: '#00f5d4', ready: true, added: '2026-10-15T19:28' },
@@ -89,7 +89,7 @@ const TYPES = {
   '.wav': 'audio/wav',
 };
 
-function launcher() {
+export function launcher() {
   // The page renders the cards itself: sort, favorites and pages live in the browser.
   const data = JSON.stringify(GAMES.map((g, i) => ({ ...g, order: i })));
   const playable = GAMES.filter((g) => g.ready).length;
@@ -181,7 +181,7 @@ function card(g) {
   const fav = favs.has(g.dir);
   return '<article class="card ' + (g.ready ? '' : 'soon') + '" style="--c:' + g.color + '">'
     + '<button class="fav" data-fav="' + g.dir + '" aria-pressed="' + fav + '" title="' + (fav ? 'Remove from favorites' : 'Add to favorites') + '">' + (fav ? '★' : '☆') + '</button>'
-    + '<a href="/' + g.dir + '/"><span class="icon">' + g.icon + '</span><b>' + g.title + '</b><small>' + g.style + '</small>'
+    + '<a href="' + g.dir + '/"><span class="icon">' + g.icon + '</span><b>' + g.title + '</b><small>' + g.style + '</small>'
     + '<small class="date">Added ' + fmt.format(new Date(g.added)) + '</small>'
     + '<span class="tag">' + (g.ready ? '▶ Play' : 'Coming soon') + '</span></a></article>';
 }
@@ -300,7 +300,8 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, HOST, () => {
+// Start only when run as a script. scripts/build-site.mjs imports launcher() without a server.
+if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) server.listen(PORT, HOST, () => {
   console.log(`Roguelites server on port ${PORT}`);
   console.log(`  http://localhost:${PORT}/`);
   for (const list of Object.values(networkInterfaces())) {

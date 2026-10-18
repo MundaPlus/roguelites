@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-18
+- Added a static site build and a GitHub Pages workflow (`scripts/build-site.mjs`, `.github/workflows/pages.yml`, `package.json`) — the user wants the games public on GitHub Pages.
+- Made the launcher card links relative and made `server.mjs` importable without a start of the server (`server.mjs`) — the site must work under `/roguelites/`.
+- Added the MIT license, like the other free Munda Plus repos (`LICENSE`, `package.json`, `README.md`).
+
 ## 2026-10-17
 - Built Lamplight as playable game number 60 and marked it ready in the launcher (`lamplight/`, `server.mjs`, `README.md`) — see `lamplight/CHANGELOG.md`.
 - Built Tip the Scales as playable game number 59 and marked it ready in the launcher (`tip-the-scales/`, `server.mjs`, `README.md`) — see `tip-the-scales/CHANGELOG.md`.

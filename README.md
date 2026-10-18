@@ -2,6 +2,8 @@
 
 Sixty small web roguelite games in two groups. The 50 classics each use a known roguelite play style. The 10 new concepts each try a new mechanic. All games use Vite and TypeScript in one npm workspace.
 
+Play in the browser: https://mundaplus.github.io/roguelites/ (PC and phone).
+
 ## Classics
 
 | Folder | Game | Play style | Status |
@@ -160,9 +162,20 @@ Open `http://<this-machine-ip>:8090/` on any device on the LAN. The server print
 - Install it on another machine: `systemctl --user link "$PWD/roguelites.service" && systemctl --user enable --now roguelites`. Run `loginctl enable-linger $USER` once, so it starts without a login.
 - Save data (gold, unlocks) lives in each browser's `localStorage`, so every device has its own progress.
 
+## GitHub Pages
+
+- `.github/workflows/pages.yml` builds all games and publishes them on each push to `main` on GitHub.
+- `npm run build:site` copies the launcher and each `<game>/dist` into `site/` (`scripts/build-site.mjs`). Run `npm run build` first.
+- The launcher links are relative, so the site works at `/roguelites/` and on the LAN server.
+- GitHub `main` gets our `master`: `git push github master:main`.
+
 Each game folder has a `README.md` with its design.
 
 ## Branches
 
 - `master`: production. Gets changes from `develop` after they are verified.
 - `develop`: day-to-day work.
+
+## License
+
+MIT. See `LICENSE`.
