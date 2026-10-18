@@ -4,6 +4,7 @@
 - Added a static site build and a GitHub Pages workflow (`scripts/build-site.mjs`, `.github/workflows/pages.yml`, `package.json`) — the user wants the games public on GitHub Pages.
 - Made the launcher card links relative and made `server.mjs` importable without a start of the server (`server.mjs`) — the site must work under `/roguelites/`.
 - Synced `package-lock.json` with the 10 new-concept workspaces (`package-lock.json`) — `npm ci` failed on GitHub without it.
+- Added a handover for the GitHub repo, Pages and munda.si steps on the main machine (`handover.md`) — this machine cannot create GitHub repos.
 - Added the MIT license, like the other free Munda Plus repos (`LICENSE`, `package.json`, `README.md`).
 
 ## 2026-10-17
