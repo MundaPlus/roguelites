@@ -4,6 +4,8 @@ Sixty small web roguelite games in two groups. The 50 classics each use a known 
 
 Play in the browser: https://mundaplus.github.io/roguelites/ (PC and phone).
 
+![The launcher, then Ember Swarm, Peg Bounce and High Card in play](docs/demo.gif)
+
 ## Classics
 
 | Folder | Game | Play style | Status |

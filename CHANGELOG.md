@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-19
+- Added a demo GIF to the README: the launcher, then Ember Swarm, Peg Bounce and High Card in play (`README.md`, `docs/demo.gif`) — the README had no picture, and a moving demo helps people find and try the games.
+- On GitHub: 13 topics, Discussions on, and release v0.1.0 (the version in `package.json`) — the user wants the free repos easy to find.
+
 ## 2026-10-18
 - Published the repo on GitHub as public `MundaPlus/roguelites` (`main` = our `master`, plus `develop`) and turned on GitHub Pages with GitHub Actions as the source. The first deploy passed: https://mundaplus.github.io/roguelites/ — the user asked for a public repo hosted with Pages.
 - Added Roguelites to the projects list on https://munda.si (deployed, backup `index.html.bak-20261018-roguelites` on the VPS) — the user wants it listed as a free open-source product.
